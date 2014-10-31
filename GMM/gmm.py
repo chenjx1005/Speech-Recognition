@@ -1,8 +1,11 @@
 #!usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import matplotlib.pyplot as plt
 import numpy as np
+import numpy.random as npr 
 from scipy.cluster.vq import kmeans2
+from scipy.stats import multivariate_normal
 
 class GMM(object):
 	"""
@@ -51,11 +54,24 @@ class GMM(object):
 			raise ValueError("train data set is too small")
 		#if the parameters are not defined, use kmeans2 to get initial value
 		if not (self.pi and self.u and self.sigma):
-			self.u, label = kmeans2(obs, self.k, 20)
+			self.u, label = kmeans2(obs, self.k, 10)
+			#TODO: re-run kmeans when One of the clusters is empty
 			self.pi = np.histogram(label, range(0, self.k+1), density=True)
 			self.sigma = np.empty((self.k, self.dim, self.dim))
 			for i in range(self.k):
 				self.sigma[i] = np.cov(obs[label==i].T, ddof=0)
+
+	def pridect(self, x):
+		pass
+
+	def draw(self):
+		for i in range(self.k):
+			x,y = multivariate_normal.rvs(self.u[i], self.sigma[i], 300).T
+			plt.plot(x,y,'x')
+		plt.show()
+
+if __name__ == '__main__':
+	pass
 
 
 
