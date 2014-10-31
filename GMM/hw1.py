@@ -24,9 +24,8 @@ def main():
 	mygmm = GMM(4,2)
 	mygmm.train(points[w1])
 	plt.plot(mygmm.u[:,0], mygmm.u[:,1], 'ro')
-	#print mygmm.pi
-	#print mygmm.sigma
-	mygmm.draw()
+	p = mygmm.predict(points[w1])
+	print p
 	plt.show()
 
 if __name__ == '__main__':

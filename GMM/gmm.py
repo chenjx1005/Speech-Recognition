@@ -37,6 +37,9 @@ class GMM(object):
 		self.pi = pi
 		self.u = u
 		self.sigma = sigma
+		if self.pi and self.u and self.sigma:
+			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
+														for i in range(self.k)])
 
 	def train(self, obs):
 		"""
@@ -54,15 +57,28 @@ class GMM(object):
 			raise ValueError("train data set is too small")
 		#if the parameters are not defined, use kmeans2 to get initial value
 		if not (self.pi and self.u and self.sigma):
-			self.u, label = kmeans2(obs, self.k, 10)
-			#TODO: re-run kmeans when One of the clusters is empty
-			self.pi = np.histogram(label, range(0, self.k+1), density=True)
+			label = np.array([])
+			while True:
+				try:
+					self.u, label = kmeans2(obs, self.k, 10, missing='raise')
+				except ClusterError:
+					print "catch a ClusterError and re-run kmeans2!"
+				else:
+					break
+			self.pi = np.histogram(label, range(0, self.k+1), density=True)[0]
 			self.sigma = np.empty((self.k, self.dim, self.dim))
 			for i in range(self.k):
 				self.sigma[i] = np.cov(obs[label==i].T, ddof=0)
+		#EM algorithm
+		#update gaussian components
+		self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
+											 		for i in range(self.k)])
 
-	def pridect(self, x):
-		pass
+	def predict(self, x):
+		norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
+		comp_pds = np.dot(np.diag(self.pi), norm_pds)
+		pds = np.sum(comp_pds, axis=0)
+		return pds
 
 	def draw(self):
 		for i in range(self.k):
