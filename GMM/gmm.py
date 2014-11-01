@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import numpy.random as npr 
-from scipy.cluster.vq import kmeans2
+from scipy.cluster.vq import kmeans2, ClusterError
 from scipy.stats import multivariate_normal
 
 class GMM(object):

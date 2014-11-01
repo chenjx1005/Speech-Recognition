@@ -8,25 +8,43 @@ from scipy.cluster.vq import kmeans2
 from gmm import GMM
 
 TRAIN_FILE = "train.txt"
+DEV_FILE = "dev.txt"
+TEST_FILE = "test.txt"
 
 def main():
 	points = np.genfromtxt(TRAIN_FILE, usecols=(0,1))
 	label = np.genfromtxt(TRAIN_FILE, usecols=2)
 	w1 = (label == 1)
+
 	# plt.plot(points[w1,0], points[w1,1], 'b.', points[~w1,0], points[~w1,1], 'r.')
-	# kmeans
-	centroids, la = kmeans2(points[w1], 4, 20)
-	plt.plot(points[la==0,0], points[la==0,1], 'b.')
-	plt.plot(points[la==1,0], points[la==1,1], 'g.')
-	plt.plot(points[la==2,0], points[la==2,1], 'y.')
-	plt.plot(points[la==3,0], points[la==3,1], 'c.')
-	# plt.plot(centroids[:,0], centroids[:,1], 'ro')
-	mygmm = GMM(4,2)
-	mygmm.train(points[w1])
-	plt.plot(mygmm.u[:,0], mygmm.u[:,1], 'ro')
-	p = mygmm.predict(points[w1])
-	print p
+	
+	gmm_1 = GMM(4,2)
+	gmm_2 = GMM(4,2)
+
+	gmm_1.train(points[w1])
+	gmm_2.train(points[~w1])
+
+	plt.figure()
+	plt.plot(points[w1,0], points[w1,1], 'b.')
+	plt.plot(gmm_1.u[:,0], gmm_1.u[:,1], 'ro')
+	gmm_1.draw()
 	plt.show()
+
+	plt.figure()
+	plt.plot(points[~w1,0], points[~w1,1], 'b.')
+	plt.plot(gmm_2.u[:,0], gmm_2.u[:,1], 'go')
+	gmm_2.draw()
+	plt.show()
+
+	devs = np.genfromtxt(DEV_FILE, usecols=(0,1))
+	dev_la = np.genfromtxt(DEV_FILE, usecols=2)
+	re = (dev_la == 1)
+
+	p_1 = gmm_1.predict(devs)
+	p_2 = gmm_2.predict(devs)
+	pr = ((p_1 > p_2) == re)
+	accuracy = np.count_nonzero(pr) * 1.0 / len(pr) 
+	print accuracy
 
 if __name__ == '__main__':
 	main()
