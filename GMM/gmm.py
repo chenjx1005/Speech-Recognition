@@ -41,6 +41,29 @@ class GMM(object):
 			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 														for i in range(self.k)])
 
+	def __em(self, x):
+		print "before em", self.u, self.pi
+		N = len(x)
+		#E step
+		norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
+		comp_pds = self.pi.reshape(self.k, 1) * norm_pds
+		pds = np.sum(comp_pds, axis=0)
+		gamma = (1/pds).reshape(N, 1) * comp_pds.T
+		#M step
+		Nk = np.sum(gamma, axis=0)
+		for i in range(self.k):
+			self.u[i] = 1 / Nk[i] * np.sum(gamma[:,i].reshape(N,1) * x, axis=0)
+
+			x_nomal = x - self.u[i]
+			g_i = gamma[:,i].reshape(1, N)
+			tmp = np.dot(g_i * x.T, x)
+			print 1/ Nk[i]
+			print tmp.shape
+			self.sigma[i] = 1 / Nk[i] * tmp
+		self.pi = Nk / N
+		#evaluate the log likelihood
+		print "after em", self.u, self.pi
+
 	def train(self, obs):
 		"""
 		use observation vector to train the GMM.
@@ -69,14 +92,20 @@ class GMM(object):
 			self.sigma = np.empty((self.k, self.dim, self.dim))
 			for i in range(self.k):
 				self.sigma[i] = np.cov(obs[label==i].T, ddof=0)
+			#update gaussian components
+			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
+												 		for i in range(self.k)])
 		#EM algorithm
+		self.__em(obs)
 		#update gaussian components
 		self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 											 		for i in range(self.k)])
 
+
+
 	def predict(self, x):
 		norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
-		comp_pds = np.dot(np.diag(self.pi), norm_pds)
+		comp_pds = self.pi.reshape(self.k, 1) * norm_pds
 		pds = np.sum(comp_pds, axis=0)
 		return pds
 
