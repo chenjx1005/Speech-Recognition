@@ -6,6 +6,7 @@ import numpy as np
 import numpy.random as npr 
 from scipy.cluster.vq import kmeans2, ClusterError
 from scipy.stats import multivariate_normal
+import scipy.io
 
 class GMM(object):
 	"""
@@ -42,27 +43,38 @@ class GMM(object):
 														for i in range(self.k)])
 
 	def __em(self, x):
-		print "before em", self.u, self.pi
 		N = len(x)
-		#E step
-		norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
-		comp_pds = self.pi.reshape(self.k, 1) * norm_pds
-		pds = np.sum(comp_pds, axis=0)
-		gamma = (1/pds).reshape(N, 1) * comp_pds.T
-		#M step
-		Nk = np.sum(gamma, axis=0)
-		for i in range(self.k):
-			self.u[i] = 1 / Nk[i] * np.sum(gamma[:,i].reshape(N,1) * x, axis=0)
+		threshold = 0.1
+		print np.sum(np.log(self.predict(x)))
+		while True:
+			#E step
+			norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
+			comp_pds = self.pi.reshape(self.k, 1) * norm_pds
+			pds = np.sum(comp_pds, axis=0)
+			gamma = (1/pds).reshape(N, 1) * comp_pds.T
 
-			x_nomal = x - self.u[i]
-			g_i = gamma[:,i].reshape(1, N)
-			tmp = np.dot(g_i * x.T, x)
-			print 1/ Nk[i]
-			print tmp.shape
-			self.sigma[i] = 1 / Nk[i] * tmp
-		self.pi = Nk / N
-		#evaluate the log likelihood
-		print "after em", self.u, self.pi
+			#M step
+			u_old = self.u
+			sigma_old = self.sigma
+			pi_old = self.pi
+			ln_likelihood_old = np.sum(np.log(self.predict(x)))
+
+			Nk = np.sum(gamma, axis=0)
+			for i in range(self.k):
+				self.u[i] = 1 / Nk[i] * np.sum(gamma[:,i].reshape(N,1) * x, axis=0)
+
+				x_nomal = x - self.u[i]
+				g_i = gamma[:,i].reshape(1, N)
+				self.sigma[i] = np.dot(g_i * x_nomal.T, x_nomal) / Nk[i]
+			self.pi = Nk / N
+			#evaluate the log likelihood and check for convergence
+			ln_likelihood = np.sum(np.log(self.predict(x))); print ln_likelihood
+			if ln_likelihood - ln_likelihood_old < threshold and \
+				(np.fabs(self.u - u_old) < threshold).all() and \
+				(np.fabs(self.sigma - sigma_old) < threshold).all() and \
+				(np.fabs(self.pi - pi_old) < threshold).all():
+				print ln_likelihood - ln_likelihood_old
+				break
 
 	def train(self, obs):
 		"""
