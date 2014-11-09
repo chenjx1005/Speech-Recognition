@@ -42,10 +42,16 @@ class GMM(object):
 			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 														for i in range(self.k)])
 
+	def __str__(self):
+		info = "this GMM contains %d Gaussian Models.\n" % self.k
+		m = ["\nModel %d: prior probability is %.3f\nmean value is %s\ncovariance" \
+			"is\n%s\n" % (i, self.pi[i], self.u[i], self.sigma[i]) \
+			for i in range(self.k)]
+		return info + "".join(m)
+
 	def __em(self, x):
 		N = len(x)
 		threshold = 0.1
-		print np.sum(np.log(self.predict(x)))
 		while True:
 			#E step
 			norm_pds = np.vstack([self.comp[i].pdf(x) for i in range(self.k)])
@@ -68,12 +74,13 @@ class GMM(object):
 				self.sigma[i] = np.dot(g_i * x_nomal.T, x_nomal) / Nk[i]
 			self.pi = Nk / N
 			#evaluate the log likelihood and check for convergence
-			ln_likelihood = np.sum(np.log(self.predict(x))); print ln_likelihood
+			ln_likelihood = np.sum(np.log(self.predict(x)))
+			print "ln(likelihood) is ", ln_likelihood
+			#TODO: set threshold according to data
 			if ln_likelihood - ln_likelihood_old < threshold and \
 				(np.fabs(self.u - u_old) < threshold).all() and \
 				(np.fabs(self.sigma - sigma_old) < threshold).all() and \
 				(np.fabs(self.pi - pi_old) < threshold).all():
-				print ln_likelihood - ln_likelihood_old
 				break
 
 	def train(self, obs):
@@ -107,12 +114,13 @@ class GMM(object):
 			#update gaussian components
 			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 												 		for i in range(self.k)])
+		ln_likelihood = np.sum(np.log(self.predict(obs)))
+		print "ln(likelihood) is ", ln_likelihood
 		#EM algorithm
 		self.__em(obs)
 		#update gaussian components
 		self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 											 		for i in range(self.k)])
-
 
 
 	def predict(self, x):
@@ -123,9 +131,10 @@ class GMM(object):
 
 	def draw(self):
 		for i in range(self.k):
+			plt.plot(self.u[:,0], self.u[:,1], 'ro')
 			x,y = multivariate_normal.rvs(self.u[i], self.sigma[i], 300).T
 			plt.plot(x,y,'x')
-		plt.show()
+		#plt.show()
 
 if __name__ == '__main__':
 	pass

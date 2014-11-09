@@ -1,0 +1,60 @@
+---------------GMM_1------------------
+ln(likelihood) is  -3332.14829556
+ln(likelihood) is  -3332.09377467
+this GMM contains 4 Gaussian Models.
+
+Model 0: prior probability is 0.250
+mean value is [ 3.00306264 -0.017933  ]
+covarianceis
+[[ 0.08503753 -0.00261251]
+ [-0.00261251  0.05237745]]
+
+Model 1: prior probability is 0.250
+mean value is [ 0.49908923  0.50896277]
+covarianceis
+[[ 0.03793649 -0.00273926]
+ [-0.00273926  0.04090735]]
+
+Model 2: prior probability is 0.250
+mean value is [ 0.99810318 -0.99447978]
+covarianceis
+[[ 0.0483854   0.00082055]
+ [ 0.00082055  0.08036767]]
+
+Model 3: prior probability is 0.250
+mean value is [ 1.99554815  1.99310704]
+covarianceis
+[[ 0.07076093 -0.00235192]
+ [-0.00235192  0.07503675]]
+
+---------------GMM_2------------------
+ln(likelihood) is  -3172.35960498
+ln(likelihood) is  -3172.10323426
+ln(likelihood) is  -3172.1027547
+this GMM contains 4 Gaussian Models.
+
+Model 0: prior probability is 0.249
+mean value is [  1.49869890e+00  -9.07661933e-04]
+covarianceis
+[[ 0.07245418 -0.00510351]
+ [-0.00510351  0.07442911]]
+
+Model 1: prior probability is 0.250
+mean value is [-0.50377267 -0.01499184]
+covarianceis
+[[ 0.06791179 -0.00595018]
+ [-0.00595018  0.06909707]]
+
+Model 2: prior probability is 0.251
+mean value is [ 2.50321933  0.98640464]
+covarianceis
+[[ 0.03974964  0.00049193]
+ [ 0.00049193  0.0549053 ]]
+
+Model 3: prior probability is 0.251
+mean value is [ 0.79476174  1.50752752]
+covarianceis
+[[ 0.03253438  0.00034621]
+ [ 0.00034621  0.04769794]]
+
+dev data classify accuracy is 0.9775
