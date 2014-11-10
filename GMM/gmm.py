@@ -134,7 +134,7 @@ class GMM(object):
 			plt.plot(self.u[:,0], self.u[:,1], 'ro')
 			x,y = multivariate_normal.rvs(self.u[i], self.sigma[i], 300).T
 			plt.plot(x,y,'x')
-		#plt.show()
+		plt.show()
 
 if __name__ == '__main__':
 	pass

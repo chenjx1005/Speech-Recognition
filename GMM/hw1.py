@@ -15,15 +15,13 @@ LOG_FILE = "log.txt"
 RESULT_FILE = "result.txt"
 
 def main():
-	log = open(LOG_FILE, "w")
-	sys.stdout = log
+	#log = open(LOG_FILE, "w")
+	#sys.stdout = log
 	#use train data to train GMM
 	points = np.genfromtxt(TRAIN_FILE, usecols=(0,1))
 	label = np.genfromtxt(TRAIN_FILE, usecols=2)
 	w1 = (label == 1)
 
-	# plt.plot(points[w1,0], points[w1,1], 'b.', points[~w1,0], points[~w1,1], 'r.')
-	
 	#initialize 2 GMMs
 	gmm_1 = GMM(4,2)
 	gmm_2 = GMM(4,2)
@@ -38,11 +36,11 @@ def main():
 
 	#visualization 2 GMMs
 	#plt.figure()
-	gmm_1.draw()
+	#gmm_1.draw()
 	#plt.show()
 
 	#plt.figure()
-	gmm_2.draw()
+	#gmm_2.draw()
 	#plt.show()
 
 	#use dev data to classify and compute accuracy
