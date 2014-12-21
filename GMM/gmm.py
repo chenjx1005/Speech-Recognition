@@ -38,7 +38,7 @@ class GMM(object):
 		self.pi = pi
 		self.u = u
 		self.sigma = sigma
-		if self.pi and self.u and self.sigma:
+		if not(self.pi is None or self.u is None or self.sigma is None):
 			self.comp = np.array([multivariate_normal(self.u[i], self.sigma[i]) \
 														for i in range(self.k)])
 
@@ -98,7 +98,7 @@ class GMM(object):
 		if not len(obs) > (10 * self.k):
 			raise ValueError("train data set is too small")
 		#if the parameters are not defined, use kmeans2 to get initial value
-		if not (self.pi and self.u and self.sigma):
+		if self.pi is None or self.u is None or self.sigma is None:
 			label = np.array([])
 			while True:
 				try:
