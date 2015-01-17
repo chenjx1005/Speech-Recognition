@@ -1,0 +1,4738 @@
+HVite -A -D -T 1 -l * -o SWT -C cfgs/config_tr -H model/hmm7/macros -H model/hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I label/train.nosp.08.mlf -S mfcc/train.scp def/dict def/monophones1 
+
+HTK Configuration Parameters[5]
+  Module/Tool     Parameter                  Value
+#                 NATURALREADORDER             FALSE
+# HNET            TRACE                          2
+#                 ACCWINDOW                      2
+#                 DELTAWINDOW                    3
+#                 TARGETKIND            MFCC_E_D_A
+
+Read 22 physical / 22 logical HMMs
+Label file will be used to align each file
+Aligning File: mfcc/train/FAC_39ZA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word nine
+Building word zero
+Building word sil
+22 nodes
+ = 5 word (0 null), init 5, int 7, fin 3, cf 0
+21 links = int 15, ext 4 (0 for null words)
+sil three nine zero sil  ==  [143 frames] -60.0955 [Ac=-8593.7 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FAC_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 8 word (0 null), init 8, int 10, fin 4, cf 0
+11 links = int 22, ext 6 (0 for null words)
+sil six sil  ==  [95 frames] -62.4433 [Ac=-5932.1 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/FAC_951A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word nine
+Building word five
+Building word one
+Building word sil
+21 nodes
+ = 13 word (0 null), init 13, int 16, fin 7, cf 0
+20 links = int 36, ext 10 (0 for null words)
+sil nine five one sil  ==  [175 frames] -58.7132 [Ac=-10274.8 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/FAG_1528A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word one
+Building word five
+Building word two
+Building word eight
+Building word sil
+24 nodes
+ = 19 word (0 null), init 19, int 22, fin 11, cf 0
+23 links = int 52, ext 15 (0 for null words)
+sil one five two eight sil  ==  [162 frames] -64.7067 [Ac=-10482.5 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/FAG_437OOA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word three
+Building word seven
+Building word oh
+Building word oh
+Building word sil
+32 nodes
+ = 27 word (0 null), init 27, int 30, fin 17, cf 0
+32 links = int 74, ext 23 (0 for null words)
+sil four three seven oh oh sil  ==  [213 frames] -62.7333 [Ac=-13362.2 LM=0.0] (Act=10.9)
+Aligning File: mfcc/train/FAG_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 30 word (0 null), init 30, int 33, fin 18, cf 0
+11 links = int 81, ext 25 (0 for null words)
+sil six sil  ==  [108 frames] -57.1852 [Ac=-6176.0 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/FAG_9B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 33 word (0 null), init 33, int 35, fin 19, cf 0
+10 links = int 87, ext 27 (0 for null words)
+sil nine sil  ==  [88 frames] -56.0861 [Ac=-4935.6 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/FAI_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 36 word (0 null), init 36, int 37, fin 20, cf 0
+10 links = int 93, ext 29 (0 for null words)
+sil one sil  ==  [80 frames] -58.6132 [Ac=-4689.1 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FAI_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 40 word (0 null), init 40, int 40, fin 22, cf 0
+15 links = int 102, ext 33 (0 for null words)
+sil four sil  ==  [89 frames] -56.6755 [Ac=-5044.1 LM=0.0] (Act=10.1)
+Aligning File: mfcc/train/FAI_7A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 43 word (0 null), init 43, int 43, fin 23, cf 0
+11 links = int 109, ext 35 (0 for null words)
+sil seven sil  ==  [90 frames] -58.1939 [Ac=-5237.5 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/FAI_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 46 word (0 null), init 46, int 43, fin 24, cf 0
+8 links = int 113, ext 37 (0 for null words)
+sil oh sil  ==  [82 frames] -55.0370 [Ac=-4513.0 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/FAN_233A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word three
+Building word three
+Building word sil
+20 nodes
+ = 51 word (0 null), init 51, int 48, fin 27, cf 0
+19 links = int 126, ext 41 (0 for null words)
+sil two three three sil  ==  [154 frames] -61.9855 [Ac=-9545.8 LM=0.0] (Act=8.3)
+Aligning File: mfcc/train/FAN_5342OA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word five
+Building word three
+Building word four
+Building word two
+Building word oh
+Building word sil
+32 nodes
+ = 59 word (0 null), init 59, int 56, fin 33, cf 0
+32 links = int 148, ext 49 (0 for null words)
+sil five three four two oh sil  ==  [245 frames] -64.2140 [Ac=-15732.4 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/FAN_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 62 word (0 null), init 62, int 59, fin 34, cf 0
+11 links = int 155, ext 51 (0 for null words)
+sil seven sil  ==  [112 frames] -57.3102 [Ac=-6418.7 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FAN_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 65 word (0 null), init 65, int 59, fin 35, cf 0
+8 links = int 159, ext 53 (0 for null words)
+sil oh sil  ==  [90 frames] -54.2992 [Ac=-4886.9 LM=0.0] (Act=6.3)
+Aligning File: mfcc/train/FBH_297ZA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word nine
+Building word seven
+Building word zero
+Building word sil
+27 nodes
+ = 71 word (0 null), init 71, int 68, fin 39, cf 0
+26 links = int 178, ext 58 (0 for null words)
+sil two nine seven zero sil  ==  [184 frames] -60.2208 [Ac=-11080.6 LM=0.0] (Act=9.6)
+Aligning File: mfcc/train/FBH_58O5A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word eight
+Building word oh
+Building word five
+Building word sil
+23 nodes
+ = 77 word (0 null), init 77, int 73, fin 43, cf 0
+22 links = int 193, ext 63 (0 for null words)
+sil five eight oh five sil  ==  [175 frames] -59.9763 [Ac=-10495.9 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/FBH_8631475A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word eight
+Building word six
+Building word three
+Building word one
+Building word four
+Building word seven
+Building word five
+Building word sil
+46 nodes
+ = 87 word (0 null), init 87, int 89, fin 51, cf 0
+46 links = int 227, ext 73 (0 for null words)
+sil eight six three one four seven five sil  ==  [278 frames] -61.4261 [Ac=-17076.5 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/FBH_Z2A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word zero
+Building word two
+Building word sil
+16 nodes
+ = 91 word (0 null), init 91, int 93, fin 53, cf 0
+15 links = int 237, ext 76 (0 for null words)
+sil zero two sil  ==  [130 frames] -59.7378 [Ac=-7765.9 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FBI_32Z18ZZA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word three
+Building word two
+Building word zero
+Building word one
+Building word eight
+Building word zero
+Building word zero
+Building word sil
+42 nodes
+ = 100 word (0 null), init 100, int 108, fin 60, cf 0
+41 links = int 268, ext 84 (0 for null words)
+sil three two zero one eight zero zero sil  ==  [269 frames] -60.3503 [Ac=-16234.2 LM=0.0] (Act=11.8)
+Aligning File: mfcc/train/FBI_5Z77A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word zero
+Building word seven
+Building word seven
+Building word sil
+29 nodes
+ = 106 word (0 null), init 106, int 119, fin 64, cf 0
+28 links = int 289, ext 89 (0 for null words)
+sil five zero seven seven sil  ==  [216 frames] -58.7282 [Ac=-12685.3 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/FBI_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 109 word (0 null), init 109, int 120, fin 65, cf 0
+9 links = int 294, ext 91 (0 for null words)
+sil eight sil  ==  [112 frames] -55.0901 [Ac=-6170.1 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/FBI_ZA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 112 word (0 null), init 112, int 123, fin 66, cf 0
+11 links = int 301, ext 93 (0 for null words)
+sil zero sil  ==  [102 frames] -62.9273 [Ac=-6418.6 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/FBR_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 115 word (0 null), init 115, int 125, fin 67, cf 0
+10 links = int 307, ext 95 (0 for null words)
+sil three sil  ==  [102 frames] -55.9250 [Ac=-5704.4 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FBR_66113Z3A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word six
+Building word one
+Building word one
+Building word three
+Building word zero
+Building word three
+Building word sil
+44 nodes
+ = 124 word (0 null), init 124, int 142, fin 74, cf 0
+43 links = int 340, ext 103 (0 for null words)
+sil six six one one three zero three sil  ==  [382 frames] -59.7963 [Ac=-22842.2 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/FBR_9527884A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word five
+Building word two
+Building word seven
+Building word eight
+Building word eight
+Building word four
+Building word sil
+43 nodes
+ = 134 word (0 null), init 134, int 155, fin 82, cf 0
+43 links = int 371, ext 113 (0 for null words)
+sil nine five two seven eight eight four sil  ==  [383 frames] -59.9250 [Ac=-22951.3 LM=0.0] (Act=11.2)
+Aligning File: mfcc/train/FCA_12Z5Z14A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word two
+Building word zero
+Building word five
+Building word zero
+Building word one
+Building word four
+Building word sil
+46 nodes
+ = 144 word (0 null), init 144, int 171, fin 90, cf 0
+46 links = int 405, ext 123 (0 for null words)
+sil one two zero five zero one four sil  ==  [327 frames] -60.7472 [Ac=-19864.3 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/FCA_3ZZ75A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word zero
+Building word zero
+Building word seven
+Building word five
+Building word sil
+34 nodes
+ = 151 word (0 null), init 151, int 184, fin 95, cf 0
+33 links = int 430, ext 129 (0 for null words)
+sil three zero zero seven five sil  ==  [274 frames] -60.3341 [Ac=-16531.5 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/FCA_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 154 word (0 null), init 154, int 187, fin 96, cf 0
+11 links = int 437, ext 131 (0 for null words)
+sil six sil  ==  [129 frames] -55.1814 [Ac=-7118.4 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/FCA_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 157 word (0 null), init 157, int 189, fin 97, cf 0
+10 links = int 443, ext 133 (0 for null words)
+sil nine sil  ==  [129 frames] -57.3409 [Ac=-7397.0 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FCG_1834Z88A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word eight
+Building word three
+Building word four
+Building word zero
+Building word eight
+Building word eight
+Building word sil
+43 nodes
+ = 167 word (0 null), init 167, int 202, fin 105, cf 0
+43 links = int 474, ext 143 (0 for null words)
+sil one eight three four zero eight eight sil  ==  [399 frames] -61.3732 [Ac=-24487.9 LM=0.0] (Act=11.8)
+Aligning File: mfcc/train/FCG_4764A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word four
+Building word seven
+Building word six
+Building word four
+Building word sil
+36 nodes
+ = 175 word (0 null), init 175, int 214, fin 111, cf 0
+37 links = int 500, ext 152 (0 for null words)
+sil four seven six four sil  ==  [260 frames] -59.2378 [Ac=-15401.8 LM=0.0] (Act=11.8)
+Aligning File: mfcc/train/FCG_77A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word seven
+Building word seven
+Building word sil
+18 nodes
+ = 179 word (0 null), init 179, int 220, fin 113, cf 0
+17 links = int 512, ext 155 (0 for null words)
+sil seven seven sil  ==  [154 frames] -58.9707 [Ac=-9081.5 LM=0.0] (Act=9.5)
+Aligning File: mfcc/train/FCG_O355A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word oh
+Building word three
+Building word five
+Building word five
+Building word sil
+24 nodes
+ = 185 word (0 null), init 185, int 226, fin 117, cf 0
+23 links = int 528, ext 160 (0 for null words)
+sil oh three five five sil  ==  [264 frames] -59.8299 [Ac=-15795.1 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/FCL_1O47A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word four
+Building word seven
+Building word sil
+29 nodes
+ = 192 word (0 null), init 192, int 234, fin 122, cf 0
+29 links = int 548, ext 167 (0 for null words)
+sil one oh four seven sil  ==  [182 frames] -61.8021 [Ac=-11248.0 LM=0.0] (Act=10.9)
+Aligning File: mfcc/train/FCL_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 196 word (0 null), init 196, int 237, fin 124, cf 0
+15 links = int 557, ext 171 (0 for null words)
+sil four sil  ==  [120 frames] -56.2487 [Ac=-6749.8 LM=0.0] (Act=11.0)
+Aligning File: mfcc/train/FCL_7A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 199 word (0 null), init 199, int 240, fin 125, cf 0
+11 links = int 564, ext 173 (0 for null words)
+sil seven sil  ==  [125 frames] -56.8945 [Ac=-7111.8 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/FCL_O64A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word oh
+Building word six
+Building word four
+Building word sil
+24 nodes
+ = 205 word (0 null), init 205, int 246, fin 129, cf 0
+24 links = int 580, ext 179 (0 for null words)
+sil oh six four sil  ==  [208 frames] -61.0959 [Ac=-12708.0 LM=0.0] (Act=12.3)
+Aligning File: mfcc/train/FCM_262A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word six
+Building word two
+Building word sil
+20 nodes
+ = 210 word (0 null), init 210, int 251, fin 132, cf 0
+19 links = int 593, ext 183 (0 for null words)
+sil two six two sil  ==  [163 frames] -58.6420 [Ac=-9558.6 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FCM_56461A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word five
+Building word six
+Building word four
+Building word six
+Building word one
+Building word sil
+37 nodes
+ = 218 word (0 null), init 218, int 264, fin 138, cf 0
+37 links = int 620, ext 191 (0 for null words)
+sil five six four six one sil  ==  [222 frames] -58.9353 [Ac=-13083.6 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/FCM_811A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word one
+Building word one
+Building word sil
+20 nodes
+ = 223 word (0 null), init 223, int 269, fin 141, cf 0
+19 links = int 633, ext 195 (0 for null words)
+sil eight one one sil  ==  [138 frames] -60.0699 [Ac=-8289.6 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/FCM_OO718A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word oh
+Building word oh
+Building word seven
+Building word one
+Building word eight
+Building word sil
+27 nodes
+ = 230 word (0 null), init 230, int 275, fin 146, cf 0
+26 links = int 651, ext 201 (0 for null words)
+sil oh oh seven one eight sil  ==  [203 frames] -59.2537 [Ac=-12028.5 LM=0.0] (Act=12.2)
+Aligning File: mfcc/train/FDC_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 233 word (0 null), init 233, int 276, fin 147, cf 0
+9 links = int 656, ext 203 (0 for null words)
+sil two sil  ==  [68 frames] -62.6758 [Ac=-4262.0 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FDC_59Z5A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word nine
+Building word zero
+Building word five
+Building word sil
+27 nodes
+ = 239 word (0 null), init 239, int 285, fin 151, cf 0
+26 links = int 675, ext 208 (0 for null words)
+sil five nine zero five sil  ==  [190 frames] -56.1549 [Ac=-10669.4 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/FDC_8746A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word eight
+Building word seven
+Building word four
+Building word six
+Building word sil
+31 nodes
+ = 246 word (0 null), init 246, int 295, fin 156, cf 0
+31 links = int 697, ext 215 (0 for null words)
+sil eight seven four six sil  ==  [168 frames] -60.4936 [Ac=-10162.9 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/FDC_Z4A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word sil
+21 nodes
+ = 251 word (0 null), init 251, int 301, fin 159, cf 0
+21 links = int 711, ext 220 (0 for null words)
+sil zero four sil  ==  [140 frames] -56.8654 [Ac=-7961.2 LM=0.0] (Act=10.4)
+Aligning File: mfcc/train/FDG_34A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word three
+Building word four
+Building word sil
+20 nodes
+ = 256 word (0 null), init 256, int 306, fin 162, cf 0
+20 links = int 724, ext 225 (0 for null words)
+sil three four sil  ==  [135 frames] -57.6314 [Ac=-7780.2 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/FDG_61486A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word six
+Building word one
+Building word four
+Building word eight
+Building word six
+Building word sil
+36 nodes
+ = 264 word (0 null), init 264, int 318, fin 168, cf 0
+36 links = int 750, ext 233 (0 for null words)
+sil six one four eight six sil  ==  [227 frames] -59.6918 [Ac=-13550.0 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/FDG_8ZA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word zero
+Building word sil
+16 nodes
+ = 268 word (0 null), init 268, int 322, fin 170, cf 0
+15 links = int 760, ext 236 (0 for null words)
+sil eight zero sil  ==  [138 frames] -56.6639 [Ac=-7819.6 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FDG_ZA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 271 word (0 null), init 271, int 325, fin 171, cf 0
+11 links = int 767, ext 238 (0 for null words)
+sil zero sil  ==  [117 frames] -56.7817 [Ac=-6643.5 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FEA_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 274 word (0 null), init 274, int 327, fin 172, cf 0
+10 links = int 773, ext 240 (0 for null words)
+sil three sil  ==  [85 frames] -58.5086 [Ac=-4973.2 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FEA_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 277 word (0 null), init 277, int 330, fin 173, cf 0
+11 links = int 780, ext 242 (0 for null words)
+sil six sil  ==  [95 frames] -57.9734 [Ac=-5507.5 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FEA_983277ZA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word eight
+Building word three
+Building word two
+Building word seven
+Building word seven
+Building word zero
+Building word sil
+42 nodes
+ = 286 word (0 null), init 286, int 345, fin 180, cf 0
+41 links = int 811, ext 250 (0 for null words)
+sil nine eight three two seven seven zero sil  ==  [262 frames] -60.9637 [Ac=-15972.5 LM=0.0] (Act=11.5)
+Aligning File: mfcc/train/FEC_15221A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word five
+Building word two
+Building word two
+Building word one
+Building word sil
+29 nodes
+ = 293 word (0 null), init 293, int 353, fin 185, cf 0
+28 links = int 831, ext 256 (0 for null words)
+sil one five two two one sil  ==  [187 frames] -61.5072 [Ac=-11501.8 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FEC_4181A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word four
+Building word one
+Building word eight
+Building word one
+Building word sil
+29 nodes
+ = 300 word (0 null), init 300, int 361, fin 190, cf 0
+29 links = int 851, ext 263 (0 for null words)
+sil four one eight one sil  ==  [161 frames] -57.9451 [Ac=-9329.2 LM=0.0] (Act=10.1)
+Aligning File: mfcc/train/FEC_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 303 word (0 null), init 303, int 364, fin 191, cf 0
+11 links = int 858, ext 265 (0 for null words)
+sil six sil  ==  [102 frames] -55.9709 [Ac=-5709.0 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FEC_9B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 306 word (0 null), init 306, int 366, fin 192, cf 0
+10 links = int 864, ext 267 (0 for null words)
+sil nine sil  ==  [98 frames] -55.5701 [Ac=-5445.9 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/FEE_1A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 309 word (0 null), init 309, int 368, fin 193, cf 0
+10 links = int 870, ext 269 (0 for null words)
+sil one sil  ==  [88 frames] -57.3853 [Ac=-5049.9 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FEE_49OOA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word four
+Building word nine
+Building word oh
+Building word oh
+Building word sil
+26 nodes
+ = 316 word (0 null), init 316, int 373, fin 198, cf 0
+26 links = int 887, ext 276 (0 for null words)
+sil four nine oh oh sil  ==  [159 frames] -59.2316 [Ac=-9417.8 LM=0.0] (Act=10.5)
+Aligning File: mfcc/train/FEE_7792A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word seven
+Building word nine
+Building word two
+Building word sil
+27 nodes
+ = 322 word (0 null), init 322, int 382, fin 202, cf 0
+26 links = int 906, ext 281 (0 for null words)
+sil seven seven nine two sil  ==  [186 frames] -62.6209 [Ac=-11647.5 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/FEE_O2A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word oh
+Building word two
+Building word sil
+13 nodes
+ = 326 word (0 null), init 326, int 383, fin 204, cf 0
+12 links = int 913, ext 284 (0 for null words)
+sil oh two sil  ==  [104 frames] -60.0152 [Ac=-6241.6 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FEG_218A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word one
+Building word eight
+Building word sil
+19 nodes
+ = 331 word (0 null), init 331, int 387, fin 207, cf 0
+18 links = int 925, ext 288 (0 for null words)
+sil two one eight sil  ==  [144 frames] -60.0727 [Ac=-8650.5 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/FEG_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 335 word (0 null), init 335, int 390, fin 209, cf 0
+15 links = int 934, ext 292 (0 for null words)
+sil four sil  ==  [77 frames] -57.8727 [Ac=-4456.2 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/FEG_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 338 word (0 null), init 338, int 393, fin 210, cf 0
+11 links = int 941, ext 294 (0 for null words)
+sil seven sil  ==  [82 frames] -56.6548 [Ac=-4645.7 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FEG_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 341 word (0 null), init 341, int 393, fin 211, cf 0
+8 links = int 945, ext 296 (0 for null words)
+sil oh sil  ==  [72 frames] -56.7586 [Ac=-4086.6 LM=0.0] (Act=6.1)
+Aligning File: mfcc/train/FEI_2A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 344 word (0 null), init 344, int 394, fin 212, cf 0
+9 links = int 950, ext 298 (0 for null words)
+sil two sil  ==  [85 frames] -56.6690 [Ac=-4816.9 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FEI_54A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word five
+Building word four
+Building word sil
+20 nodes
+ = 349 word (0 null), init 349, int 399, fin 215, cf 0
+20 links = int 963, ext 303 (0 for null words)
+sil five four sil  ==  [131 frames] -57.0387 [Ac=-7472.1 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FEI_88A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word eight
+Building word sil
+14 nodes
+ = 353 word (0 null), init 353, int 401, fin 217, cf 0
+13 links = int 971, ext 306 (0 for null words)
+sil eight eight sil  ==  [114 frames] -56.6597 [Ac=-6459.2 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/FEI_Z281ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word two
+Building word eight
+Building word one
+Building word zero
+Building word sil
+31 nodes
+ = 360 word (0 null), init 360, int 411, fin 222, cf 0
+30 links = int 993, ext 312 (0 for null words)
+sil zero two eight one zero sil  ==  [239 frames] -62.2855 [Ac=-14886.2 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/FEK_2Z66A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word zero
+Building word six
+Building word six
+Building word sil
+28 nodes
+ = 366 word (0 null), init 366, int 421, fin 226, cf 0
+27 links = int 1013, ext 317 (0 for null words)
+sil two zero six six sil  ==  [191 frames] -58.1931 [Ac=-11114.9 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/FEK_5A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 369 word (0 null), init 369, int 423, fin 227, cf 0
+10 links = int 1019, ext 319 (0 for null words)
+sil five sil  ==  [108 frames] -54.6214 [Ac=-5899.1 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/FEK_8B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 372 word (0 null), init 372, int 424, fin 228, cf 0
+9 links = int 1024, ext 321 (0 for null words)
+sil eight sil  ==  [109 frames] -57.7980 [Ac=-6300.0 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FEK_Z7Z8A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word zero
+Building word seven
+Building word zero
+Building word eight
+Building word sil
+28 nodes
+ = 378 word (0 null), init 378, int 434, fin 232, cf 0
+27 links = int 1044, ext 326 (0 for null words)
+sil zero seven zero eight sil  ==  [187 frames] -60.8126 [Ac=-11372.0 LM=0.0] (Act=8.5)
+Aligning File: mfcc/train/FES_367A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word six
+Building word seven
+Building word sil
+23 nodes
+ = 383 word (0 null), init 383, int 442, fin 235, cf 0
+22 links = int 1060, ext 330 (0 for null words)
+sil three six seven sil  ==  [152 frames] -65.6560 [Ac=-9979.7 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FES_63A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word six
+Building word three
+Building word sil
+17 nodes
+ = 387 word (0 null), init 387, int 447, fin 237, cf 0
+16 links = int 1071, ext 333 (0 for null words)
+sil six three sil  ==  [126 frames] -59.6594 [Ac=-7517.1 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FES_9113884A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word one
+Building word one
+Building word three
+Building word eight
+Building word eight
+Building word four
+Building word sil
+43 nodes
+ = 397 word (0 null), init 397, int 460, fin 245, cf 0
+43 links = int 1102, ext 343 (0 for null words)
+sil nine one one three eight eight four sil  ==  [317 frames] -62.1512 [Ac=-19701.9 LM=0.0] (Act=11.2)
+Aligning File: mfcc/train/FES_ZZ1A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word zero
+Building word zero
+Building word one
+Building word sil
+23 nodes
+ = 402 word (0 null), init 402, int 468, fin 248, cf 0
+22 links = int 1118, ext 347 (0 for null words)
+sil zero zero one sil  ==  [168 frames] -60.8818 [Ac=-10228.1 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FHG_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 405 word (0 null), init 405, int 470, fin 249, cf 0
+10 links = int 1124, ext 349 (0 for null words)
+sil three sil  ==  [116 frames] -55.7006 [Ac=-6461.3 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/FHG_6823ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word six
+Building word eight
+Building word two
+Building word three
+Building word zero
+Building word sil
+31 nodes
+ = 412 word (0 null), init 412, int 480, fin 254, cf 0
+30 links = int 1146, ext 355 (0 for null words)
+sil six eight two three zero sil  ==  [286 frames] -60.9900 [Ac=-17443.2 LM=0.0] (Act=10.1)
+Aligning File: mfcc/train/FHG_97OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word nine
+Building word seven
+Building word oh
+Building word sil
+20 nodes
+ = 417 word (0 null), init 417, int 485, fin 257, cf 0
+19 links = int 1159, ext 359 (0 for null words)
+sil nine seven oh sil  ==  [157 frames] -60.0283 [Ac=-9424.4 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FHP_1889597A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word eight
+Building word eight
+Building word nine
+Building word five
+Building word nine
+Building word seven
+Building word sil
+40 nodes
+ = 426 word (0 null), init 426, int 498, fin 264, cf 0
+39 links = int 1188, ext 367 (0 for null words)
+sil one eight eight nine five nine seven sil  ==  [280 frames] -62.6035 [Ac=-17529.0 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/FHP_42287A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word two
+Building word two
+Building word eight
+Building word seven
+Building word sil
+33 nodes
+ = 434 word (0 null), init 434, int 507, fin 270, cf 0
+33 links = int 1211, ext 375 (0 for null words)
+sil four two two eight seven sil  ==  [234 frames] -61.3865 [Ac=-14364.4 LM=0.0] (Act=11.9)
+Aligning File: mfcc/train/FHP_71ZA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word one
+Building word zero
+Building word sil
+23 nodes
+ = 439 word (0 null), init 439, int 515, fin 273, cf 0
+22 links = int 1227, ext 379 (0 for null words)
+sil seven one zero sil  ==  [189 frames] -58.0551 [Ac=-10972.4 LM=0.0] (Act=8.3)
+Aligning File: mfcc/train/FHP_9Z34ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word nine
+Building word zero
+Building word three
+Building word four
+Building word zero
+Building word sil
+37 nodes
+ = 447 word (0 null), init 447, int 528, fin 279, cf 0
+37 links = int 1254, ext 387 (0 for null words)
+sil nine zero three four zero sil  ==  [228 frames] -62.7438 [Ac=-14305.6 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/FIG_1O45841A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word four
+Building word five
+Building word eight
+Building word four
+Building word one
+Building word sil
+46 nodes
+ = 458 word (0 null), init 458, int 541, fin 288, cf 0
+47 links = int 1287, ext 399 (0 for null words)
+sil one oh four five eight four one sil  ==  [310 frames] -58.9234 [Ac=-18266.3 LM=0.0] (Act=12.0)
+Aligning File: mfcc/train/FIG_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 462 word (0 null), init 462, int 544, fin 290, cf 0
+15 links = int 1296, ext 403 (0 for null words)
+sil four sil  ==  [130 frames] -55.8075 [Ac=-7255.0 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/FIG_7797ZZ4A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word seven
+Building word seven
+Building word nine
+Building word seven
+Building word zero
+Building word zero
+Building word four
+Building word sil
+50 nodes
+ = 472 word (0 null), init 472, int 564, fin 298, cf 0
+50 links = int 1334, ext 413 (0 for null words)
+sil seven seven nine seven zero zero four sil  ==  [370 frames] -61.4180 [Ac=-22724.7 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FIG_O3617A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word oh
+Building word three
+Building word six
+Building word one
+Building word seven
+Building word sil
+31 nodes
+ = 479 word (0 null), init 479, int 574, fin 303, cf 0
+30 links = int 1356, ext 419 (0 for null words)
+sil oh three six one seven sil  ==  [207 frames] -63.0209 [Ac=-13045.3 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FIH_234A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word three
+Building word four
+Building word sil
+24 nodes
+ = 485 word (0 null), init 485, int 580, fin 307, cf 0
+24 links = int 1372, ext 425 (0 for null words)
+sil two three four sil  ==  [168 frames] -59.8103 [Ac=-10048.1 LM=0.0] (Act=10.1)
+Aligning File: mfcc/train/FIH_5162685A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word six
+Building word two
+Building word six
+Building word eight
+Building word five
+Building word sil
+41 nodes
+ = 494 word (0 null), init 494, int 594, fin 314, cf 0
+40 links = int 1402, ext 433 (0 for null words)
+sil five one six two six eight five sil  ==  [370 frames] -59.0928 [Ac=-21864.3 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/FIH_7OO48A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word seven
+Building word oh
+Building word oh
+Building word four
+Building word eight
+Building word sil
+31 nodes
+ = 502 word (0 null), init 502, int 601, fin 320, cf 0
+31 links = int 1423, ext 441 (0 for null words)
+sil seven oh oh four eight sil  ==  [231 frames] -57.8669 [Ac=-13367.3 LM=0.0] (Act=13.6)
+Aligning File: mfcc/train/FIH_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 505 word (0 null), init 505, int 601, fin 321, cf 0
+8 links = int 1427, ext 443 (0 for null words)
+sil oh sil  ==  [108 frames] -56.4978 [Ac=-6101.8 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FIL_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 508 word (0 null), init 508, int 602, fin 322, cf 0
+9 links = int 1432, ext 445 (0 for null words)
+sil two sil  ==  [89 frames] -59.9442 [Ac=-5335.0 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/FIL_583A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word eight
+Building word three
+Building word sil
+20 nodes
+ = 513 word (0 null), init 513, int 607, fin 325, cf 0
+19 links = int 1445, ext 449 (0 for null words)
+sil five eight three sil  ==  [152 frames] -59.6672 [Ac=-9069.4 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FIL_866A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word six
+Building word six
+Building word sil
+22 nodes
+ = 518 word (0 null), init 518, int 614, fin 328, cf 0
+21 links = int 1460, ext 453 (0 for null words)
+sil eight six six sil  ==  [185 frames] -57.7445 [Ac=-10682.7 LM=0.0] (Act=8.5)
+Aligning File: mfcc/train/FIL_Z41Z5Z6A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word one
+Building word zero
+Building word five
+Building word zero
+Building word six
+Building word sil
+49 nodes
+ = 528 word (0 null), init 528, int 633, fin 336, cf 0
+49 links = int 1497, ext 463 (0 for null words)
+sil zero four one zero five zero six sil  ==  [319 frames] -61.2590 [Ac=-19541.6 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/FJC_313Z1A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word one
+Building word three
+Building word zero
+Building word one
+Building word sil
+32 nodes
+ = 535 word (0 null), init 535, int 644, fin 341, cf 0
+31 links = int 1520, ext 469 (0 for null words)
+sil three one three zero one sil  ==  [250 frames] -59.9777 [Ac=-14994.4 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FJC_5O2A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word oh
+Building word two
+Building word sil
+18 nodes
+ = 540 word (0 null), init 540, int 647, fin 344, cf 0
+17 links = int 1531, ext 473 (0 for null words)
+sil five oh two sil  ==  [173 frames] -55.6147 [Ac=-9621.3 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/FJC_8B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 543 word (0 null), init 543, int 648, fin 345, cf 0
+9 links = int 1536, ext 475 (0 for null words)
+sil eight sil  ==  [97 frames] -57.4046 [Ac=-5568.3 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/FJC_ZA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 546 word (0 null), init 546, int 651, fin 346, cf 0
+11 links = int 1543, ext 477 (0 for null words)
+sil zero sil  ==  [102 frames] -58.5922 [Ac=-5976.4 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/FJI_3425A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word four
+Building word two
+Building word five
+Building word sil
+29 nodes
+ = 553 word (0 null), init 553, int 659, fin 351, cf 0
+29 links = int 1563, ext 484 (0 for null words)
+sil three four two five sil  ==  [175 frames] -63.2378 [Ac=-11066.6 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/FJI_669A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word six
+Building word six
+Building word nine
+Building word sil
+23 nodes
+ = 558 word (0 null), init 558, int 667, fin 354, cf 0
+22 links = int 1579, ext 488 (0 for null words)
+sil six six nine sil  ==  [148 frames] -63.8878 [Ac=-9455.4 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FJI_94A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word four
+Building word sil
+20 nodes
+ = 563 word (0 null), init 563, int 672, fin 357, cf 0
+20 links = int 1592, ext 493 (0 for null words)
+sil nine four sil  ==  [117 frames] -59.9288 [Ac=-7011.7 LM=0.0] (Act=11.6)
+Aligning File: mfcc/train/FJJ_12A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word one
+Building word two
+Building word sil
+15 nodes
+ = 567 word (0 null), init 567, int 675, fin 359, cf 0
+14 links = int 1601, ext 496 (0 for null words)
+sil one two sil  ==  [167 frames] -58.0392 [Ac=-9692.5 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FJJ_3O5OA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word oh
+Building word five
+Building word oh
+Building word sil
+22 nodes
+ = 573 word (0 null), init 573, int 679, fin 363, cf 0
+21 links = int 1615, ext 501 (0 for null words)
+sil three oh five oh sil  ==  [196 frames] -59.4762 [Ac=-11657.3 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FJJ_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 576 word (0 null), init 576, int 682, fin 364, cf 0
+11 links = int 1622, ext 503 (0 for null words)
+sil six sil  ==  [117 frames] -56.4745 [Ac=-6607.5 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FJJ_99A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word nine
+Building word sil
+16 nodes
+ = 580 word (0 null), init 580, int 686, fin 366, cf 0
+15 links = int 1632, ext 506 (0 for null words)
+sil nine nine sil  ==  [163 frames] -59.6707 [Ac=-9726.3 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/FJN_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 583 word (0 null), init 583, int 688, fin 367, cf 0
+10 links = int 1638, ext 508 (0 for null words)
+sil one sil  ==  [94 frames] -57.3805 [Ac=-5393.8 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FJN_44A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word four
+Building word sil
+24 nodes
+ = 589 word (0 null), init 589, int 694, fin 371, cf 0
+26 links = int 1654, ext 516 (0 for null words)
+sil four four sil  ==  [121 frames] -58.3587 [Ac=-7061.4 LM=0.0] (Act=13.4)
+Aligning File: mfcc/train/FJN_7358A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word three
+Building word five
+Building word eight
+Building word sil
+26 nodes
+ = 595 word (0 null), init 595, int 702, fin 375, cf 0
+25 links = int 1672, ext 521 (0 for null words)
+sil seven three five eight sil  ==  [152 frames] -62.7832 [Ac=-9543.0 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FJN_O282A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word oh
+Building word two
+Building word eight
+Building word two
+Building word sil
+21 nodes
+ = 601 word (0 null), init 601, int 705, fin 379, cf 0
+20 links = int 1685, ext 526 (0 for null words)
+sil oh two eight two sil  ==  [145 frames] -63.3430 [Ac=-9184.7 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/FJP_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 604 word (0 null), init 604, int 707, fin 380, cf 0
+10 links = int 1691, ext 528 (0 for null words)
+sil one sil  ==  [90 frames] -59.5109 [Ac=-5356.0 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/FJP_4O9A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word four
+Building word oh
+Building word nine
+Building word sil
+23 nodes
+ = 610 word (0 null), init 610, int 712, fin 384, cf 0
+23 links = int 1706, ext 534 (0 for null words)
+sil four oh nine sil  ==  [166 frames] -58.1015 [Ac=-9644.9 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/FJP_79Z18A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word seven
+Building word nine
+Building word zero
+Building word one
+Building word eight
+Building word sil
+32 nodes
+ = 617 word (0 null), init 617, int 723, fin 389, cf 0
+31 links = int 1729, ext 540 (0 for null words)
+sil seven nine zero one eight sil  ==  [246 frames] -64.2605 [Ac=-15808.1 LM=0.0] (Act=9.2)
+Aligning File: mfcc/train/FJP_OB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 620 word (0 null), init 620, int 723, fin 390, cf 0
+8 links = int 1733, ext 542 (0 for null words)
+sil oh sil  ==  [93 frames] -55.3867 [Ac=-5151.0 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FKC_2474822A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word two
+Building word four
+Building word seven
+Building word four
+Building word eight
+Building word two
+Building word two
+Building word sil
+46 nodes
+ = 631 word (0 null), init 631, int 736, fin 399, cf 0
+47 links = int 1766, ext 554 (0 for null words)
+sil two four seven four eight two two sil  ==  [322 frames] -60.7175 [Ac=-19551.0 LM=0.0] (Act=14.8)
+Aligning File: mfcc/train/FKC_51A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word sil
+16 nodes
+ = 635 word (0 null), init 635, int 740, fin 401, cf 0
+15 links = int 1776, ext 557 (0 for null words)
+sil five one sil  ==  [155 frames] -56.4916 [Ac=-8756.2 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FKC_81A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word one
+Building word sil
+15 nodes
+ = 639 word (0 null), init 639, int 743, fin 403, cf 0
+14 links = int 1785, ext 560 (0 for null words)
+sil eight one sil  ==  [162 frames] -61.5407 [Ac=-9969.6 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/FKC_OO668A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word oh
+Building word oh
+Building word six
+Building word six
+Building word eight
+Building word sil
+28 nodes
+ = 646 word (0 null), init 646, int 750, fin 408, cf 0
+27 links = int 1804, ext 566 (0 for null words)
+sil oh oh six six eight sil  ==  [281 frames] -58.9487 [Ac=-16564.6 LM=0.0] (Act=10.3)
+Aligning File: mfcc/train/FKF_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 649 word (0 null), init 649, int 751, fin 409, cf 0
+9 links = int 1809, ext 568 (0 for null words)
+sil two sil  ==  [84 frames] -58.1412 [Ac=-4883.9 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/FKF_5B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 652 word (0 null), init 652, int 753, fin 410, cf 0
+10 links = int 1815, ext 570 (0 for null words)
+sil five sil  ==  [98 frames] -57.8303 [Ac=-5667.4 LM=0.0] (Act=6.3)
+Aligning File: mfcc/train/FKF_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 655 word (0 null), init 655, int 754, fin 411, cf 0
+9 links = int 1820, ext 572 (0 for null words)
+sil eight sil  ==  [97 frames] -61.1544 [Ac=-5932.0 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FKF_Z58A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word zero
+Building word five
+Building word eight
+Building word sil
+21 nodes
+ = 660 word (0 null), init 660, int 760, fin 414, cf 0
+20 links = int 1834, ext 576 (0 for null words)
+sil zero five eight sil  ==  [190 frames] -60.2656 [Ac=-11450.5 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FKH_316A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word one
+Building word six
+Building word sil
+22 nodes
+ = 665 word (0 null), init 665, int 767, fin 417, cf 0
+21 links = int 1849, ext 580 (0 for null words)
+sil three one six sil  ==  [173 frames] -59.9893 [Ac=-10378.1 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FKH_6336A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word six
+Building word three
+Building word three
+Building word six
+Building word sil
+28 nodes
+ = 671 word (0 null), init 671, int 777, fin 421, cf 0
+27 links = int 1869, ext 585 (0 for null words)
+sil six three three six sil  ==  [195 frames] -63.7679 [Ac=-12434.7 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FKH_8B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 674 word (0 null), init 674, int 778, fin 422, cf 0
+9 links = int 1874, ext 587 (0 for null words)
+sil eight sil  ==  [81 frames] -56.8592 [Ac=-4605.6 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/FKH_ZZ342A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word zero
+Building word three
+Building word four
+Building word two
+Building word sil
+36 nodes
+ = 682 word (0 null), init 682, int 790, fin 428, cf 0
+36 links = int 1900, ext 595 (0 for null words)
+sil zero zero three four two sil  ==  [218 frames] -60.5233 [Ac=-13194.1 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/FKK_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 685 word (0 null), init 685, int 792, fin 429, cf 0
+10 links = int 1906, ext 597 (0 for null words)
+sil three sil  ==  [85 frames] -59.1863 [Ac=-5030.8 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/FKK_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 688 word (0 null), init 688, int 795, fin 430, cf 0
+11 links = int 1913, ext 599 (0 for null words)
+sil six sil  ==  [100 frames] -57.8132 [Ac=-5781.3 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FKK_95141O9A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word five
+Building word one
+Building word four
+Building word one
+Building word oh
+Building word nine
+Building word sil
+43 nodes
+ = 698 word (0 null), init 698, int 808, fin 438, cf 0
+43 links = int 1944, ext 609 (0 for null words)
+sil nine five one four one oh nine sil  ==  [317 frames] -58.9094 [Ac=-18674.3 LM=0.0] (Act=11.0)
+Aligning File: mfcc/train/FKN_1611712A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word six
+Building word one
+Building word one
+Building word seven
+Building word one
+Building word two
+Building word sil
+42 nodes
+ = 707 word (0 null), init 707, int 823, fin 445, cf 0
+41 links = int 1975, ext 617 (0 for null words)
+sil one six one one seven one two sil  ==  [350 frames] -60.8602 [Ac=-21301.1 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/FKN_42A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word two
+Building word sil
+19 nodes
+ = 712 word (0 null), init 712, int 827, fin 448, cf 0
+19 links = int 1987, ext 622 (0 for null words)
+sil four two sil  ==  [129 frames] -57.0112 [Ac=-7354.5 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/FKN_6ZA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word six
+Building word zero
+Building word sil
+18 nodes
+ = 716 word (0 null), init 716, int 833, fin 450, cf 0
+17 links = int 1999, ext 625 (0 for null words)
+sil six zero sil  ==  [126 frames] -59.6228 [Ac=-7512.5 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FKN_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 719 word (0 null), init 719, int 835, fin 451, cf 0
+10 links = int 2005, ext 627 (0 for null words)
+sil nine sil  ==  [135 frames] -56.0658 [Ac=-7568.9 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FKT_19OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word one
+Building word nine
+Building word oh
+Building word sil
+19 nodes
+ = 724 word (0 null), init 724, int 839, fin 454, cf 0
+18 links = int 2017, ext 631 (0 for null words)
+sil one nine oh sil  ==  [132 frames] -57.9917 [Ac=-7654.9 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/FKT_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 728 word (0 null), init 728, int 842, fin 456, cf 0
+15 links = int 2026, ext 635 (0 for null words)
+sil four sil  ==  [106 frames] -61.2736 [Ac=-6495.0 LM=0.0] (Act=11.2)
+Aligning File: mfcc/train/FKT_75Z8A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word five
+Building word zero
+Building word eight
+Building word sil
+27 nodes
+ = 734 word (0 null), init 734, int 851, fin 460, cf 0
+26 links = int 2045, ext 640 (0 for null words)
+sil seven five zero eight sil  ==  [195 frames] -58.4730 [Ac=-11402.2 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/FKT_O42A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word oh
+Building word four
+Building word two
+Building word sil
+22 nodes
+ = 740 word (0 null), init 740, int 855, fin 464, cf 0
+22 links = int 2059, ext 646 (0 for null words)
+sil oh four two sil  ==  [139 frames] -63.6587 [Ac=-8848.6 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/FLA_215A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word one
+Building word five
+Building word sil
+20 nodes
+ = 745 word (0 null), init 745, int 860, fin 467, cf 0
+19 links = int 2072, ext 650 (0 for null words)
+sil two one five sil  ==  [168 frames] -60.6601 [Ac=-10190.9 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FLA_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 749 word (0 null), init 749, int 863, fin 469, cf 0
+15 links = int 2081, ext 654 (0 for null words)
+sil four sil  ==  [84 frames] -59.3989 [Ac=-4989.5 LM=0.0] (Act=10.3)
+Aligning File: mfcc/train/FLA_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 752 word (0 null), init 752, int 866, fin 470, cf 0
+11 links = int 2088, ext 656 (0 for null words)
+sil seven sil  ==  [100 frames] -59.0954 [Ac=-5909.5 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/FLA_O84618OA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word eight
+Building word four
+Building word six
+Building word one
+Building word eight
+Building word oh
+Building word sil
+40 nodes
+ = 762 word (0 null), init 762, int 876, fin 478, cf 0
+40 links = int 2116, ext 666 (0 for null words)
+sil oh eight four six one eight oh sil  ==  [319 frames] -62.4054 [Ac=-19907.3 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/FLD_2957O91A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word two
+Building word nine
+Building word five
+Building word seven
+Building word oh
+Building word nine
+Building word one
+Building word sil
+39 nodes
+ = 771 word (0 null), init 771, int 888, fin 485, cf 0
+38 links = int 2144, ext 674 (0 for null words)
+sil two nine five seven oh nine one sil  ==  [322 frames] -59.6036 [Ac=-19192.4 LM=0.0] (Act=9.8)
+Aligning File: mfcc/train/FLD_5664O23A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word six
+Building word six
+Building word four
+Building word oh
+Building word two
+Building word three
+Building word sil
+44 nodes
+ = 781 word (0 null), init 781, int 902, fin 493, cf 0
+44 links = int 2176, ext 684 (0 for null words)
+sil five six six four oh two three sil  ==  [280 frames] -61.9197 [Ac=-17337.5 LM=0.0] (Act=10.8)
+Aligning File: mfcc/train/FLD_83ZA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word three
+Building word zero
+Building word sil
+21 nodes
+ = 786 word (0 null), init 786, int 908, fin 496, cf 0
+20 links = int 2190, ext 688 (0 for null words)
+sil eight three zero sil  ==  [153 frames] -65.2074 [Ac=-9976.7 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/FLD_Z225A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word zero
+Building word two
+Building word two
+Building word five
+Building word sil
+25 nodes
+ = 792 word (0 null), init 792, int 915, fin 500, cf 0
+24 links = int 2207, ext 693 (0 for null words)
+sil zero two two five sil  ==  [199 frames] -61.3890 [Ac=-12216.4 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FLS_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 795 word (0 null), init 795, int 916, fin 501, cf 0
+9 links = int 2212, ext 695 (0 for null words)
+sil two sil  ==  [102 frames] -55.3413 [Ac=-5644.8 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/FLS_5B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 798 word (0 null), init 798, int 918, fin 502, cf 0
+10 links = int 2218, ext 697 (0 for null words)
+sil five sil  ==  [98 frames] -53.8889 [Ac=-5281.1 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/FLS_894A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word nine
+Building word four
+Building word sil
+24 nodes
+ = 804 word (0 null), init 804, int 924, fin 506, cf 0
+24 links = int 2234, ext 703 (0 for null words)
+sil eight nine four sil  ==  [141 frames] -60.0930 [Ac=-8473.1 LM=0.0] (Act=11.8)
+Aligning File: mfcc/train/FLS_Z822ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word eight
+Building word two
+Building word two
+Building word zero
+Building word sil
+30 nodes
+ = 811 word (0 null), init 811, int 933, fin 511, cf 0
+29 links = int 2255, ext 709 (0 for null words)
+sil zero eight two two zero sil  ==  [218 frames] -62.2088 [Ac=-13561.5 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/FMK_38349A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word eight
+Building word three
+Building word four
+Building word nine
+Building word sil
+34 nodes
+ = 819 word (0 null), init 819, int 943, fin 517, cf 0
+34 links = int 2279, ext 717 (0 for null words)
+sil three eight three four nine sil  ==  [230 frames] -62.3282 [Ac=-14335.5 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/FMK_6379A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word six
+Building word three
+Building word seven
+Building word nine
+Building word sil
+28 nodes
+ = 825 word (0 null), init 825, int 953, fin 521, cf 0
+27 links = int 2299, ext 722 (0 for null words)
+sil six three seven nine sil  ==  [195 frames] -64.2583 [Ac=-12530.4 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FMK_91A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word one
+Building word sil
+16 nodes
+ = 829 word (0 null), init 829, int 957, fin 523, cf 0
+15 links = int 2309, ext 725 (0 for null words)
+sil nine one sil  ==  [136 frames] -59.9217 [Ac=-8149.3 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FMK_ZB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 832 word (0 null), init 832, int 960, fin 524, cf 0
+11 links = int 2316, ext 727 (0 for null words)
+sil zero sil  ==  [112 frames] -57.4537 [Ac=-6434.8 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/FMM_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 835 word (0 null), init 835, int 962, fin 525, cf 0
+10 links = int 2322, ext 729 (0 for null words)
+sil three sil  ==  [127 frames] -57.4500 [Ac=-7296.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/FMM_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 838 word (0 null), init 838, int 965, fin 526, cf 0
+11 links = int 2329, ext 731 (0 for null words)
+sil six sil  ==  [152 frames] -56.4489 [Ac=-8580.2 LM=0.0] (Act=8.5)
+Aligning File: mfcc/train/FMM_9829OA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word nine
+Building word eight
+Building word two
+Building word nine
+Building word oh
+Building word sil
+27 nodes
+ = 845 word (0 null), init 845, int 971, fin 531, cf 0
+26 links = int 2347, ext 737 (0 for null words)
+sil nine eight two nine oh sil  ==  [271 frames] -63.1064 [Ac=-17101.8 LM=0.0] (Act=12.6)
+Aligning File: mfcc/train/FMS_16793A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word six
+Building word seven
+Building word nine
+Building word three
+Building word sil
+33 nodes
+ = 852 word (0 null), init 852, int 983, fin 536, cf 0
+32 links = int 2371, ext 743 (0 for null words)
+sil one six seven nine three sil  ==  [193 frames] -64.5915 [Ac=-12466.2 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/FMS_41A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word one
+Building word sil
+20 nodes
+ = 857 word (0 null), init 857, int 988, fin 539, cf 0
+20 links = int 2384, ext 748 (0 for null words)
+sil four one sil  ==  [136 frames] -57.3872 [Ac=-7804.7 LM=0.0] (Act=12.3)
+Aligning File: mfcc/train/FMS_7443A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word four
+Building word four
+Building word three
+Building word sil
+35 nodes
+ = 865 word (0 null), init 865, int 999, fin 545, cf 0
+37 links = int 2409, ext 758 (0 for null words)
+sil seven four four three sil  ==  [213 frames] -58.4189 [Ac=-12443.2 LM=0.0] (Act=12.1)
+Aligning File: mfcc/train/FMS_9ZZ868ZA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word zero
+Building word zero
+Building word eight
+Building word six
+Building word eight
+Building word zero
+Building word sil
+43 nodes
+ = 874 word (0 null), init 874, int 1015, fin 552, cf 0
+42 links = int 2441, ext 766 (0 for null words)
+sil nine zero zero eight six eight zero sil  ==  [335 frames] -59.9933 [Ac=-20097.8 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/FMW_1O86445A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word eight
+Building word six
+Building word four
+Building word four
+Building word five
+Building word sil
+47 nodes
+ = 885 word (0 null), init 885, int 1029, fin 561, cf 0
+49 links = int 2475, ext 779 (0 for null words)
+sil one oh eight six four four five sil  ==  [314 frames] -59.8472 [Ac=-18792.0 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/FMW_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 889 word (0 null), init 889, int 1032, fin 563, cf 0
+15 links = int 2484, ext 783 (0 for null words)
+sil four sil  ==  [98 frames] -55.0999 [Ac=-5399.8 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FMW_7619A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word six
+Building word one
+Building word nine
+Building word sil
+28 nodes
+ = 895 word (0 null), init 895, int 1042, fin 567, cf 0
+27 links = int 2504, ext 788 (0 for null words)
+sil seven six one nine sil  ==  [205 frames] -58.8463 [Ac=-12063.5 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/FMW_O771A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word oh
+Building word seven
+Building word seven
+Building word one
+Building word sil
+26 nodes
+ = 901 word (0 null), init 901, int 1050, fin 571, cf 0
+25 links = int 2522, ext 793 (0 for null words)
+sil oh seven seven one sil  ==  [218 frames] -59.9444 [Ac=-13067.9 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/FNC_24456A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word two
+Building word four
+Building word four
+Building word five
+Building word six
+Building word sil
+39 nodes
+ = 910 word (0 null), init 910, int 1062, fin 578, cf 0
+41 links = int 2550, ext 804 (0 for null words)
+sil two four four five six sil  ==  [258 frames] -60.2833 [Ac=-15553.1 LM=0.0] (Act=11.8)
+Aligning File: mfcc/train/FNC_51OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word oh
+Building word sil
+19 nodes
+ = 915 word (0 null), init 915, int 1066, fin 581, cf 0
+18 links = int 2562, ext 808 (0 for null words)
+sil five one oh sil  ==  [193 frames] -57.7848 [Ac=-11152.5 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FNC_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 918 word (0 null), init 918, int 1069, fin 582, cf 0
+11 links = int 2569, ext 810 (0 for null words)
+sil seven sil  ==  [106 frames] -58.5287 [Ac=-6204.0 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/FNC_OB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 921 word (0 null), init 921, int 1069, fin 583, cf 0
+8 links = int 2573, ext 812 (0 for null words)
+sil oh sil  ==  [81 frames] -55.1760 [Ac=-4469.3 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/FNG_2A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 924 word (0 null), init 924, int 1070, fin 584, cf 0
+9 links = int 2578, ext 814 (0 for null words)
+sil two sil  ==  [66 frames] -59.6626 [Ac=-3937.7 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FNG_571A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word seven
+Building word one
+Building word sil
+22 nodes
+ = 929 word (0 null), init 929, int 1077, fin 587, cf 0
+21 links = int 2593, ext 818 (0 for null words)
+sil five seven one sil  ==  [120 frames] -64.9272 [Ac=-7791.3 LM=0.0] (Act=9.6)
+Aligning File: mfcc/train/FNG_8444878A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word eight
+Building word four
+Building word four
+Building word four
+Building word eight
+Building word seven
+Building word eight
+Building word sil
+51 nodes
+ = 941 word (0 null), init 941, int 1092, fin 597, cf 0
+55 links = int 2630, ext 834 (0 for null words)
+sil eight four four four eight seven eight sil  ==  [246 frames] -59.6215 [Ac=-14666.9 LM=0.0] (Act=15.4)
+Aligning File: mfcc/train/FNG_Z255ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word two
+Building word five
+Building word five
+Building word zero
+Building word sil
+32 nodes
+ = 948 word (0 null), init 948, int 1103, fin 602, cf 0
+31 links = int 2653, ext 840 (0 for null words)
+sil zero two five five zero sil  ==  [187 frames] -60.3306 [Ac=-11281.8 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/FNH_33A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word three
+Building word three
+Building word sil
+16 nodes
+ = 952 word (0 null), init 952, int 1107, fin 604, cf 0
+15 links = int 2663, ext 843 (0 for null words)
+sil three three sil  ==  [111 frames] -58.6161 [Ac=-6506.4 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/FNH_5ZZA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word zero
+Building word zero
+Building word sil
+23 nodes
+ = 957 word (0 null), init 957, int 1115, fin 607, cf 0
+22 links = int 2679, ext 847 (0 for null words)
+sil five zero zero sil  ==  [150 frames] -59.0649 [Ac=-8859.7 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FNH_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 960 word (0 null), init 960, int 1116, fin 608, cf 0
+9 links = int 2684, ext 849 (0 for null words)
+sil eight sil  ==  [76 frames] -58.3892 [Ac=-4437.6 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FNH_Z9A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word zero
+Building word nine
+Building word sil
+17 nodes
+ = 964 word (0 null), init 964, int 1121, fin 610, cf 0
+16 links = int 2695, ext 852 (0 for null words)
+sil zero nine sil  ==  [121 frames] -57.0439 [Ac=-6902.3 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FPE_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 967 word (0 null), init 967, int 1123, fin 611, cf 0
+10 links = int 2701, ext 854 (0 for null words)
+sil three sil  ==  [77 frames] -59.0688 [Ac=-4548.3 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/FPE_66OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word six
+Building word six
+Building word oh
+Building word sil
+21 nodes
+ = 972 word (0 null), init 972, int 1129, fin 614, cf 0
+20 links = int 2715, ext 858 (0 for null words)
+sil six six oh sil  ==  [131 frames] -59.9167 [Ac=-7849.1 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/FPE_9497A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word nine
+Building word four
+Building word nine
+Building word seven
+Building word sil
+31 nodes
+ = 979 word (0 null), init 979, int 1139, fin 619, cf 0
+31 links = int 2737, ext 865 (0 for null words)
+sil nine four nine seven sil  ==  [162 frames] -60.3686 [Ac=-9779.7 LM=0.0] (Act=12.9)
+Aligning File: mfcc/train/FPK_14O54A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word four
+Building word oh
+Building word five
+Building word four
+Building word sil
+37 nodes
+ = 988 word (0 null), init 988, int 1149, fin 626, cf 0
+38 links = int 2763, ext 875 (0 for null words)
+sil one four oh five four sil  ==  [274 frames] -60.9315 [Ac=-16695.2 LM=0.0] (Act=13.3)
+Aligning File: mfcc/train/FPK_3OA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word three
+Building word oh
+Building word sil
+14 nodes
+ = 992 word (0 null), init 992, int 1151, fin 628, cf 0
+13 links = int 2771, ext 878 (0 for null words)
+sil three oh sil  ==  [139 frames] -60.6322 [Ac=-8427.9 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/FPK_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 995 word (0 null), init 995, int 1154, fin 629, cf 0
+11 links = int 2778, ext 880 (0 for null words)
+sil six sil  ==  [109 frames] -57.9818 [Ac=-6320.0 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FPK_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 998 word (0 null), init 998, int 1156, fin 630, cf 0
+10 links = int 2784, ext 882 (0 for null words)
+sil nine sil  ==  [99 frames] -58.3218 [Ac=-5773.9 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/FPM_15559A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word five
+Building word five
+Building word five
+Building word nine
+Building word sil
+31 nodes
+ = 1005 word (0 null), init 1005, int 1166, fin 635, cf 0
+30 links = int 2806, ext 888 (0 for null words)
+sil one five five five nine sil  ==  [207 frames] -57.1561 [Ac=-11831.3 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/FPM_4475846A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word four
+Building word four
+Building word seven
+Building word five
+Building word eight
+Building word four
+Building word six
+Building word sil
+54 nodes
+ = 1017 word (0 null), init 1017, int 1184, fin 645, cf 0
+57 links = int 2846, ext 903 (0 for null words)
+sil four four seven five eight four six sil  ==  [266 frames] -60.4887 [Ac=-16090.0 LM=0.0] (Act=11.1)
+Aligning File: mfcc/train/FPM_724A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word two
+Building word four
+Building word sil
+25 nodes
+ = 1023 word (0 null), init 1023, int 1191, fin 649, cf 0
+25 links = int 2863, ext 909 (0 for null words)
+sil seven two four sil  ==  [146 frames] -58.0717 [Ac=-8478.5 LM=0.0] (Act=11.4)
+Aligning File: mfcc/train/FPM_O164462A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word one
+Building word six
+Building word four
+Building word four
+Building word six
+Building word two
+Building word sil
+48 nodes
+ = 1034 word (0 null), init 1034, int 1206, fin 658, cf 0
+50 links = int 2898, ext 922 (0 for null words)
+sil oh one six four four six two sil  ==  [236 frames] -60.9641 [Ac=-14387.5 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/FPP_1OA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word sil
+14 nodes
+ = 1038 word (0 null), init 1038, int 1208, fin 660, cf 0
+13 links = int 2906, ext 925 (0 for null words)
+sil one oh sil  ==  [106 frames] -59.1107 [Ac=-6265.7 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/FPP_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1042 word (0 null), init 1042, int 1211, fin 662, cf 0
+15 links = int 2915, ext 929 (0 for null words)
+sil four sil  ==  [97 frames] -55.6368 [Ac=-5396.8 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FPP_7A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1045 word (0 null), init 1045, int 1214, fin 663, cf 0
+11 links = int 2922, ext 931 (0 for null words)
+sil seven sil  ==  [99 frames] -57.5457 [Ac=-5697.0 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FPP_O4O8A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word oh
+Building word four
+Building word oh
+Building word eight
+Building word sil
+25 nodes
+ = 1052 word (0 null), init 1052, int 1218, fin 668, cf 0
+25 links = int 2938, ext 938 (0 for null words)
+sil oh four oh eight sil  ==  [185 frames] -64.5121 [Ac=-11934.7 LM=0.0] (Act=14.6)
+Aligning File: mfcc/train/FRA_23752O6A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word two
+Building word three
+Building word seven
+Building word five
+Building word two
+Building word oh
+Building word six
+Building word sil
+39 nodes
+ = 1061 word (0 null), init 1061, int 1230, fin 675, cf 0
+38 links = int 2966, ext 946 (0 for null words)
+sil two three seven five two oh six sil  ==  [347 frames] -61.2651 [Ac=-21259.0 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/FRA_51A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word sil
+16 nodes
+ = 1065 word (0 null), init 1065, int 1234, fin 677, cf 0
+15 links = int 2976, ext 949 (0 for null words)
+sil five one sil  ==  [148 frames] -57.7941 [Ac=-8553.5 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/FRA_813A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word one
+Building word three
+Building word sil
+20 nodes
+ = 1070 word (0 null), init 1070, int 1239, fin 680, cf 0
+19 links = int 2989, ext 953 (0 for null words)
+sil eight one three sil  ==  [161 frames] -60.9796 [Ac=-9817.7 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/FRA_OO7A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word oh
+Building word oh
+Building word seven
+Building word sil
+18 nodes
+ = 1075 word (0 null), init 1075, int 1242, fin 683, cf 0
+17 links = int 3000, ext 957 (0 for null words)
+sil oh oh seven sil  ==  [178 frames] -56.8824 [Ac=-10125.1 LM=0.0] (Act=10.4)
+Aligning File: mfcc/train/FRE_2Z5A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word two
+Building word zero
+Building word five
+Building word sil
+21 nodes
+ = 1080 word (0 null), init 1080, int 1248, fin 686, cf 0
+20 links = int 3014, ext 961 (0 for null words)
+sil two zero five sil  ==  [190 frames] -60.5741 [Ac=-11509.1 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/FRE_597A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word nine
+Building word seven
+Building word sil
+22 nodes
+ = 1085 word (0 null), init 1085, int 1255, fin 689, cf 0
+21 links = int 3029, ext 965 (0 for null words)
+sil five nine seven sil  ==  [162 frames] -58.5842 [Ac=-9490.6 LM=0.0] (Act=9.4)
+Aligning File: mfcc/train/FRE_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 1088 word (0 null), init 1088, int 1256, fin 690, cf 0
+9 links = int 3034, ext 967 (0 for null words)
+sil eight sil  ==  [91 frames] -53.9697 [Ac=-4911.2 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/FRE_Z44A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word four
+Building word sil
+30 nodes
+ = 1095 word (0 null), init 1095, int 1265, fin 695, cf 0
+32 links = int 3055, ext 976 (0 for null words)
+sil zero four four sil  ==  [185 frames] -61.3406 [Ac=-11348.0 LM=0.0] (Act=12.4)
+Aligning File: mfcc/train/FRN_36Z3A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word six
+Building word zero
+Building word three
+Building word sil
+28 nodes
+ = 1101 word (0 null), init 1101, int 1275, fin 699, cf 0
+27 links = int 3075, ext 981 (0 for null words)
+sil three six zero three sil  ==  [209 frames] -61.3632 [Ac=-12824.9 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/FRN_61138Z3A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word one
+Building word one
+Building word three
+Building word eight
+Building word zero
+Building word three
+Building word sil
+42 nodes
+ = 1110 word (0 null), init 1110, int 1290, fin 706, cf 0
+41 links = int 3106, ext 989 (0 for null words)
+sil six one one three eight zero three sil  ==  [326 frames] -60.9283 [Ac=-19862.6 LM=0.0] (Act=9.2)
+Aligning File: mfcc/train/FRN_8ZA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word zero
+Building word sil
+16 nodes
+ = 1114 word (0 null), init 1114, int 1294, fin 708, cf 0
+15 links = int 3116, ext 992 (0 for null words)
+sil eight zero sil  ==  [138 frames] -58.4923 [Ac=-8071.9 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/FRN_ZB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 1117 word (0 null), init 1117, int 1297, fin 709, cf 0
+11 links = int 3123, ext 994 (0 for null words)
+sil zero sil  ==  [103 frames] -64.1581 [Ac=-6608.3 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/FRP_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1120 word (0 null), init 1120, int 1299, fin 710, cf 0
+10 links = int 3129, ext 996 (0 for null words)
+sil three sil  ==  [84 frames] -59.3746 [Ac=-4987.5 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/FRP_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1123 word (0 null), init 1123, int 1302, fin 711, cf 0
+11 links = int 3136, ext 998 (0 for null words)
+sil six sil  ==  [104 frames] -56.7596 [Ac=-5903.0 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/FRP_97A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word seven
+Building word sil
+17 nodes
+ = 1127 word (0 null), init 1127, int 1307, fin 713, cf 0
+16 links = int 3147, ext 1001 (0 for null words)
+sil nine seven sil  ==  [122 frames] -63.5541 [Ac=-7753.6 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/FRR_13536A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word three
+Building word five
+Building word three
+Building word six
+Building word sil
+32 nodes
+ = 1134 word (0 null), init 1134, int 1318, fin 718, cf 0
+31 links = int 3170, ext 1007 (0 for null words)
+sil one three five three six sil  ==  [248 frames] -60.3635 [Ac=-14970.2 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/FRR_439A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word four
+Building word three
+Building word nine
+Building word sil
+25 nodes
+ = 1140 word (0 null), init 1140, int 1325, fin 722, cf 0
+25 links = int 3187, ext 1013 (0 for null words)
+sil four three nine sil  ==  [162 frames] -60.2526 [Ac=-9760.9 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/FRR_6ZZ3894A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word zero
+Building word zero
+Building word three
+Building word eight
+Building word nine
+Building word four
+Building word sil
+47 nodes
+ = 1150 word (0 null), init 1150, int 1342, fin 730, cf 0
+47 links = int 3222, ext 1023 (0 for null words)
+sil six zero zero three eight nine four sil  ==  [312 frames] -59.3600 [Ac=-18520.3 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/FRR_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 1153 word (0 null), init 1153, int 1344, fin 731, cf 0
+10 links = int 3228, ext 1025 (0 for null words)
+sil nine sil  ==  [94 frames] -58.0042 [Ac=-5452.4 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MAE_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1156 word (0 null), init 1156, int 1346, fin 732, cf 0
+10 links = int 3234, ext 1027 (0 for null words)
+sil three sil  ==  [82 frames] -59.6689 [Ac=-4892.9 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/MAE_6825969A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word eight
+Building word two
+Building word five
+Building word nine
+Building word six
+Building word nine
+Building word sil
+41 nodes
+ = 1165 word (0 null), init 1165, int 1360, fin 739, cf 0
+40 links = int 3264, ext 1035 (0 for null words)
+sil six eight two five nine six nine sil  ==  [254 frames] -62.4779 [Ac=-15869.4 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/MAE_93A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word three
+Building word sil
+16 nodes
+ = 1169 word (0 null), init 1169, int 1364, fin 741, cf 0
+15 links = int 3274, ext 1038 (0 for null words)
+sil nine three sil  ==  [116 frames] -61.1451 [Ac=-7092.8 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/MAJ_15Z2ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word five
+Building word zero
+Building word two
+Building word zero
+Building word sil
+32 nodes
+ = 1176 word (0 null), init 1176, int 1375, fin 746, cf 0
+31 links = int 3297, ext 1044 (0 for null words)
+sil one five zero two zero sil  ==  [198 frames] -62.3874 [Ac=-12352.7 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/MAJ_4198ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word one
+Building word nine
+Building word eight
+Building word zero
+Building word sil
+35 nodes
+ = 1184 word (0 null), init 1184, int 1386, fin 752, cf 0
+35 links = int 3322, ext 1052 (0 for null words)
+sil four one nine eight zero sil  ==  [177 frames] -60.7363 [Ac=-10750.3 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/MAJ_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1187 word (0 null), init 1187, int 1389, fin 753, cf 0
+11 links = int 3329, ext 1054 (0 for null words)
+sil six sil  ==  [86 frames] -58.8693 [Ac=-5062.8 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MAJ_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 1190 word (0 null), init 1190, int 1391, fin 754, cf 0
+10 links = int 3335, ext 1056 (0 for null words)
+sil nine sil  ==  [85 frames] -56.6040 [Ac=-4811.3 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MAL_1A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 1193 word (0 null), init 1193, int 1393, fin 755, cf 0
+10 links = int 3341, ext 1058 (0 for null words)
+sil one sil  ==  [95 frames] -59.8915 [Ac=-5689.7 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/MAL_46682A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word six
+Building word six
+Building word eight
+Building word two
+Building word sil
+35 nodes
+ = 1201 word (0 null), init 1201, int 1404, fin 761, cf 0
+35 links = int 3366, ext 1066 (0 for null words)
+sil four six six eight two sil  ==  [289 frames] -61.8524 [Ac=-17875.3 LM=0.0] (Act=10.2)
+Aligning File: mfcc/train/MAL_74789Z4A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word seven
+Building word four
+Building word seven
+Building word eight
+Building word nine
+Building word zero
+Building word four
+Building word sil
+51 nodes
+ = 1212 word (0 null), init 1212, int 1422, fin 770, cf 0
+52 links = int 3404, ext 1078 (0 for null words)
+sil seven four seven eight nine zero four sil  ==  [386 frames] -62.4545 [Ac=-24107.4 LM=0.0] (Act=11.0)
+Aligning File: mfcc/train/MAL_O5A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word oh
+Building word five
+Building word sil
+14 nodes
+ = 1216 word (0 null), init 1216, int 1424, fin 772, cf 0
+13 links = int 3412, ext 1081 (0 for null words)
+sil oh five sil  ==  [162 frames] -61.4457 [Ac=-9954.2 LM=0.0] (Act=8.3)
+Aligning File: mfcc/train/MAW_2242A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word two
+Building word four
+Building word two
+Building word sil
+27 nodes
+ = 1223 word (0 null), init 1223, int 1430, fin 777, cf 0
+27 links = int 3430, ext 1088 (0 for null words)
+sil two two four two sil  ==  [134 frames] -64.2382 [Ac=-8607.9 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/MAW_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1227 word (0 null), init 1227, int 1433, fin 779, cf 0
+15 links = int 3439, ext 1092 (0 for null words)
+sil four sil  ==  [97 frames] -56.7386 [Ac=-5503.6 LM=0.0] (Act=10.9)
+Aligning File: mfcc/train/MAW_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1230 word (0 null), init 1230, int 1436, fin 780, cf 0
+11 links = int 3446, ext 1094 (0 for null words)
+sil seven sil  ==  [95 frames] -55.0428 [Ac=-5229.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MAW_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 1233 word (0 null), init 1233, int 1436, fin 781, cf 0
+8 links = int 3450, ext 1096 (0 for null words)
+sil oh sil  ==  [71 frames] -57.1773 [Ac=-4059.6 LM=0.0] (Act=6.3)
+Aligning File: mfcc/train/MBD_23A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word two
+Building word three
+Building word sil
+15 nodes
+ = 1237 word (0 null), init 1237, int 1439, fin 783, cf 0
+14 links = int 3459, ext 1099 (0 for null words)
+sil two three sil  ==  [104 frames] -59.4822 [Ac=-6186.1 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MBD_5899O37A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word eight
+Building word nine
+Building word nine
+Building word oh
+Building word three
+Building word seven
+Building word sil
+39 nodes
+ = 1246 word (0 null), init 1246, int 1451, fin 790, cf 0
+38 links = int 3487, ext 1107 (0 for null words)
+sil five eight nine nine oh three seven sil  ==  [257 frames] -59.3238 [Ac=-15246.2 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MBD_844OA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word eight
+Building word four
+Building word four
+Building word oh
+Building word sil
+31 nodes
+ = 1254 word (0 null), init 1254, int 1458, fin 796, cf 0
+33 links = int 3508, ext 1117 (0 for null words)
+sil eight four four oh sil  ==  [184 frames] -57.6946 [Ac=-10615.8 LM=0.0] (Act=12.1)
+Aligning File: mfcc/train/MBD_Z1Z36A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word one
+Building word zero
+Building word three
+Building word six
+Building word sil
+34 nodes
+ = 1261 word (0 null), init 1261, int 1471, fin 801, cf 0
+33 links = int 3533, ext 1123 (0 for null words)
+sil zero one zero three six sil  ==  [234 frames] -59.0537 [Ac=-13818.6 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/MCB_2O86O18A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word two
+Building word oh
+Building word eight
+Building word six
+Building word oh
+Building word one
+Building word eight
+Building word sil
+35 nodes
+ = 1270 word (0 null), init 1270, int 1479, fin 808, cf 0
+34 links = int 3557, ext 1131 (0 for null words)
+sil two oh eight six oh one eight sil  ==  [305 frames] -59.9941 [Ac=-18298.2 LM=0.0] (Act=10.5)
+Aligning File: mfcc/train/MCB_5A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 1273 word (0 null), init 1273, int 1481, fin 809, cf 0
+10 links = int 3563, ext 1133 (0 for null words)
+sil five sil  ==  [82 frames] -53.9898 [Ac=-4427.2 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/MCB_89113A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word eight
+Building word nine
+Building word one
+Building word one
+Building word three
+Building word sil
+30 nodes
+ = 1280 word (0 null), init 1280, int 1490, fin 814, cf 0
+29 links = int 3584, ext 1139 (0 for null words)
+sil eight nine one one three sil  ==  [258 frames] -59.5755 [Ac=-15370.5 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/MCB_Z4Z8Z16A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word zero
+Building word eight
+Building word zero
+Building word one
+Building word six
+Building word sil
+48 nodes
+ = 1290 word (0 null), init 1290, int 1508, fin 822, cf 0
+48 links = int 3620, ext 1149 (0 for null words)
+sil zero four zero eight zero one six sil  ==  [395 frames] -59.9061 [Ac=-23662.9 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/MCF_38A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word three
+Building word eight
+Building word sil
+15 nodes
+ = 1294 word (0 null), init 1294, int 1511, fin 824, cf 0
+14 links = int 3629, ext 1152 (0 for null words)
+sil three eight sil  ==  [108 frames] -62.4202 [Ac=-6741.4 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MCF_645Z935A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word four
+Building word five
+Building word zero
+Building word nine
+Building word three
+Building word five
+Building word sil
+47 nodes
+ = 1304 word (0 null), init 1304, int 1528, fin 832, cf 0
+47 links = int 3664, ext 1162 (0 for null words)
+sil six four five zero nine three five sil  ==  [305 frames] -62.6976 [Ac=-19122.8 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/MCF_9123A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word nine
+Building word one
+Building word two
+Building word three
+Building word sil
+25 nodes
+ = 1310 word (0 null), init 1310, int 1535, fin 836, cf 0
+24 links = int 3681, ext 1167 (0 for null words)
+sil nine one two three sil  ==  [177 frames] -61.5942 [Ac=-10902.2 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MCF_ZB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 1313 word (0 null), init 1313, int 1538, fin 837, cf 0
+11 links = int 3688, ext 1169 (0 for null words)
+sil zero sil  ==  [93 frames] -59.4091 [Ac=-5525.0 LM=0.0] (Act=5.7)
+Aligning File: mfcc/train/MCR_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1316 word (0 null), init 1316, int 1540, fin 838, cf 0
+10 links = int 3694, ext 1171 (0 for null words)
+sil three sil  ==  [86 frames] -57.1210 [Ac=-4912.4 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/MCR_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1319 word (0 null), init 1319, int 1543, fin 839, cf 0
+11 links = int 3701, ext 1173 (0 for null words)
+sil six sil  ==  [98 frames] -59.3122 [Ac=-5812.6 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MCR_96662A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word nine
+Building word six
+Building word six
+Building word six
+Building word two
+Building word sil
+33 nodes
+ = 1326 word (0 null), init 1326, int 1555, fin 844, cf 0
+32 links = int 3725, ext 1179 (0 for null words)
+sil nine six six six two sil  ==  [260 frames] -59.1398 [Ac=-15376.3 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MDL_16O61A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word six
+Building word oh
+Building word six
+Building word one
+Building word sil
+31 nodes
+ = 1333 word (0 null), init 1333, int 1565, fin 849, cf 0
+30 links = int 3747, ext 1185 (0 for null words)
+sil one six oh six one sil  ==  [208 frames] -64.1809 [Ac=-13349.6 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/MDL_47917A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word seven
+Building word nine
+Building word one
+Building word seven
+Building word sil
+37 nodes
+ = 1341 word (0 null), init 1341, int 1578, fin 855, cf 0
+37 links = int 3774, ext 1193 (0 for null words)
+sil four seven nine one seven sil  ==  [204 frames] -61.5771 [Ac=-12561.7 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/MDL_7156A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word one
+Building word five
+Building word six
+Building word sil
+28 nodes
+ = 1347 word (0 null), init 1347, int 1588, fin 859, cf 0
+27 links = int 3794, ext 1198 (0 for null words)
+sil seven one five six sil  ==  [202 frames] -60.2027 [Ac=-12160.9 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/MDL_9Z2A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word nine
+Building word zero
+Building word two
+Building word sil
+21 nodes
+ = 1352 word (0 null), init 1352, int 1594, fin 862, cf 0
+20 links = int 3808, ext 1202 (0 for null words)
+sil nine zero two sil  ==  [157 frames] -59.1480 [Ac=-9286.2 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MDN_1O9O5A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word nine
+Building word oh
+Building word five
+Building word sil
+27 nodes
+ = 1359 word (0 null), init 1359, int 1600, fin 867, cf 0
+26 links = int 3826, ext 1208 (0 for null words)
+sil one oh nine oh five sil  ==  [264 frames] -58.8037 [Ac=-15524.2 LM=0.0] (Act=9.8)
+Aligning File: mfcc/train/MDN_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1363 word (0 null), init 1363, int 1603, fin 869, cf 0
+15 links = int 3835, ext 1212 (0 for null words)
+sil four sil  ==  [102 frames] -57.0475 [Ac=-5818.8 LM=0.0] (Act=10.8)
+Aligning File: mfcc/train/MDN_7A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1366 word (0 null), init 1366, int 1606, fin 870, cf 0
+11 links = int 3842, ext 1214 (0 for null words)
+sil seven sil  ==  [104 frames] -55.5920 [Ac=-5781.6 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/MDN_O4282A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word oh
+Building word four
+Building word two
+Building word eight
+Building word two
+Building word sil
+30 nodes
+ = 1374 word (0 null), init 1374, int 1612, fin 876, cf 0
+30 links = int 3862, ext 1222 (0 for null words)
+sil oh four two eight two sil  ==  [217 frames] -62.2225 [Ac=-13502.3 LM=0.0] (Act=11.2)
+Aligning File: mfcc/train/MEH_2411OA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word two
+Building word four
+Building word one
+Building word one
+Building word oh
+Building word sil
+32 nodes
+ = 1382 word (0 null), init 1382, int 1620, fin 882, cf 0
+32 links = int 3884, ext 1230 (0 for null words)
+sil two four one one oh sil  ==  [236 frames] -59.5917 [Ac=-14063.6 LM=0.0] (Act=10.8)
+Aligning File: mfcc/train/MEH_517A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word seven
+Building word sil
+22 nodes
+ = 1387 word (0 null), init 1387, int 1627, fin 885, cf 0
+21 links = int 3899, ext 1234 (0 for null words)
+sil five one seven sil  ==  [146 frames] -59.5096 [Ac=-8688.4 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MEH_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1390 word (0 null), init 1390, int 1630, fin 886, cf 0
+11 links = int 3906, ext 1236 (0 for null words)
+sil seven sil  ==  [88 frames] -56.4695 [Ac=-4969.3 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MEH_OB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 1393 word (0 null), init 1393, int 1630, fin 887, cf 0
+8 links = int 3910, ext 1238 (0 for null words)
+sil oh sil  ==  [122 frames] -55.7774 [Ac=-6804.8 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MEL_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 1396 word (0 null), init 1396, int 1631, fin 888, cf 0
+9 links = int 3915, ext 1240 (0 for null words)
+sil two sil  ==  [79 frames] -58.5539 [Ac=-4625.8 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/MEL_5684827A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word six
+Building word eight
+Building word four
+Building word eight
+Building word two
+Building word seven
+Building word sil
+44 nodes
+ = 1406 word (0 null), init 1406, int 1645, fin 896, cf 0
+44 links = int 3947, ext 1250 (0 for null words)
+sil five six eight four eight two seven sil  ==  [257 frames] -65.5036 [Ac=-16834.4 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/MEL_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 1409 word (0 null), init 1409, int 1646, fin 897, cf 0
+9 links = int 3952, ext 1252 (0 for null words)
+sil eight sil  ==  [82 frames] -60.3427 [Ac=-4948.1 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/MEL_Z45Z865A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word five
+Building word zero
+Building word eight
+Building word six
+Building word five
+Building word sil
+47 nodes
+ = 1419 word (0 null), init 1419, int 1663, fin 905, cf 0
+47 links = int 3987, ext 1262 (0 for null words)
+sil zero four five zero eight six five sil  ==  [274 frames] -62.7114 [Ac=-17182.9 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MFC_323A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word two
+Building word three
+Building word sil
+20 nodes
+ = 1424 word (0 null), init 1424, int 1668, fin 908, cf 0
+19 links = int 4000, ext 1266 (0 for null words)
+sil three two three sil  ==  [161 frames] -58.1897 [Ac=-9368.5 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MFC_5B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 1427 word (0 null), init 1427, int 1670, fin 909, cf 0
+10 links = int 4006, ext 1268 (0 for null words)
+sil five sil  ==  [127 frames] -55.3094 [Ac=-7024.3 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MFC_8B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 1430 word (0 null), init 1430, int 1671, fin 910, cf 0
+9 links = int 4011, ext 1270 (0 for null words)
+sil eight sil  ==  [81 frames] -57.1047 [Ac=-4625.5 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/MFC_ZB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 1433 word (0 null), init 1433, int 1674, fin 911, cf 0
+11 links = int 4018, ext 1272 (0 for null words)
+sil zero sil  ==  [94 frames] -59.7638 [Ac=-5617.8 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/MFD_389A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word eight
+Building word nine
+Building word sil
+20 nodes
+ = 1438 word (0 null), init 1438, int 1679, fin 914, cf 0
+19 links = int 4031, ext 1276 (0 for null words)
+sil three eight nine sil  ==  [121 frames] -58.5548 [Ac=-7085.1 LM=0.0] (Act=8.3)
+Aligning File: mfcc/train/MFD_68A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word six
+Building word eight
+Building word sil
+16 nodes
+ = 1442 word (0 null), init 1442, int 1683, fin 916, cf 0
+15 links = int 4041, ext 1279 (0 for null words)
+sil six eight sil  ==  [134 frames] -57.3649 [Ac=-7686.9 LM=0.0] (Act=9.4)
+Aligning File: mfcc/train/MFD_9475214A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word four
+Building word seven
+Building word five
+Building word two
+Building word one
+Building word four
+Building word sil
+49 nodes
+ = 1453 word (0 null), init 1453, int 1699, fin 925, cf 0
+50 links = int 4077, ext 1291 (0 for null words)
+sil nine four seven five two one four sil  ==  [282 frames] -61.2418 [Ac=-17270.2 LM=0.0] (Act=11.5)
+Aligning File: mfcc/train/MFF_12A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word one
+Building word two
+Building word sil
+15 nodes
+ = 1457 word (0 null), init 1457, int 1702, fin 927, cf 0
+14 links = int 4086, ext 1294 (0 for null words)
+sil one two sil  ==  [98 frames] -58.8726 [Ac=-5769.5 LM=0.0] (Act=6.3)
+Aligning File: mfcc/train/MFF_3O855A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word oh
+Building word eight
+Building word five
+Building word five
+Building word sil
+28 nodes
+ = 1464 word (0 null), init 1464, int 1709, fin 932, cf 0
+27 links = int 4105, ext 1300 (0 for null words)
+sil three oh eight five five sil  ==  [213 frames] -62.1252 [Ac=-13232.7 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/MFF_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1467 word (0 null), init 1467, int 1712, fin 933, cf 0
+11 links = int 4112, ext 1302 (0 for null words)
+sil six sil  ==  [94 frames] -55.5202 [Ac=-5218.9 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/MFF_973A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word nine
+Building word seven
+Building word three
+Building word sil
+22 nodes
+ = 1472 word (0 null), init 1472, int 1719, fin 936, cf 0
+21 links = int 4127, ext 1306 (0 for null words)
+sil nine seven three sil  ==  [148 frames] -62.4862 [Ac=-9248.0 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MFI_18A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word one
+Building word eight
+Building word sil
+15 nodes
+ = 1476 word (0 null), init 1476, int 1722, fin 938, cf 0
+14 links = int 4136, ext 1309 (0 for null words)
+sil one eight sil  ==  [146 frames] -56.5998 [Ac=-8263.6 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/MFI_45A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word five
+Building word sil
+20 nodes
+ = 1481 word (0 null), init 1481, int 1727, fin 941, cf 0
+20 links = int 4149, ext 1314 (0 for null words)
+sil four five sil  ==  [146 frames] -57.6748 [Ac=-8420.5 LM=0.0] (Act=9.5)
+Aligning File: mfcc/train/MFI_7394A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word three
+Building word nine
+Building word four
+Building word sil
+31 nodes
+ = 1488 word (0 null), init 1488, int 1737, fin 946, cf 0
+31 links = int 4171, ext 1321 (0 for null words)
+sil seven three nine four sil  ==  [273 frames] -61.0060 [Ac=-16654.6 LM=0.0] (Act=11.1)
+Aligning File: mfcc/train/MFI_O213551A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word two
+Building word one
+Building word three
+Building word five
+Building word five
+Building word one
+Building word sil
+38 nodes
+ = 1497 word (0 null), init 1497, int 1748, fin 953, cf 0
+37 links = int 4198, ext 1329 (0 for null words)
+sil oh two one three five five one sil  ==  [365 frames] -60.6689 [Ac=-22144.1 LM=0.0] (Act=9.6)
+Aligning File: mfcc/train/MFJ_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 1500 word (0 null), init 1500, int 1750, fin 954, cf 0
+10 links = int 4204, ext 1331 (0 for null words)
+sil one sil  ==  [80 frames] -57.6289 [Ac=-4610.3 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/MFJ_4Z2ZA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word four
+Building word zero
+Building word two
+Building word zero
+Building word sil
+31 nodes
+ = 1507 word (0 null), init 1507, int 1760, fin 959, cf 0
+31 links = int 4226, ext 1338 (0 for null words)
+sil four zero two zero sil  ==  [190 frames] -59.5438 [Ac=-11313.3 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/MFJ_79A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word seven
+Building word nine
+Building word sil
+17 nodes
+ = 1511 word (0 null), init 1511, int 1765, fin 961, cf 0
+16 links = int 4237, ext 1341 (0 for null words)
+sil seven nine sil  ==  [122 frames] -58.7984 [Ac=-7173.4 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MFJ_OB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 1514 word (0 null), init 1514, int 1765, fin 962, cf 0
+8 links = int 4241, ext 1343 (0 for null words)
+sil oh sil  ==  [100 frames] -57.0944 [Ac=-5709.4 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/MFK_2877A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word eight
+Building word seven
+Building word seven
+Building word sil
+26 nodes
+ = 1520 word (0 null), init 1520, int 1773, fin 966, cf 0
+25 links = int 4259, ext 1348 (0 for null words)
+sil two eight seven seven sil  ==  [196 frames] -59.2850 [Ac=-11619.9 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MFK_575O68OA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word seven
+Building word five
+Building word oh
+Building word six
+Building word eight
+Building word oh
+Building word sil
+38 nodes
+ = 1529 word (0 null), init 1529, int 1784, fin 973, cf 0
+37 links = int 4286, ext 1356 (0 for null words)
+sil five seven five oh six eight oh sil  ==  [358 frames] -59.5118 [Ac=-21305.2 LM=0.0] (Act=11.1)
+Aligning File: mfcc/train/MFK_81516A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word eight
+Building word one
+Building word five
+Building word one
+Building word six
+Building word sil
+31 nodes
+ = 1536 word (0 null), init 1536, int 1794, fin 978, cf 0
+30 links = int 4308, ext 1362 (0 for null words)
+sil eight one five one six sil  ==  [255 frames] -58.4074 [Ac=-14893.9 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MFK_OO86A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word oh
+Building word oh
+Building word eight
+Building word six
+Building word sil
+22 nodes
+ = 1542 word (0 null), init 1542, int 1798, fin 982, cf 0
+21 links = int 4322, ext 1367 (0 for null words)
+sil oh oh eight six sil  ==  [214 frames] -58.3771 [Ac=-12492.7 LM=0.0] (Act=9.2)
+Aligning File: mfcc/train/MFL_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 1545 word (0 null), init 1545, int 1799, fin 983, cf 0
+9 links = int 4327, ext 1369 (0 for null words)
+sil two sil  ==  [82 frames] -58.2528 [Ac=-4776.7 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MFL_5964498A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word nine
+Building word six
+Building word four
+Building word four
+Building word nine
+Building word eight
+Building word sil
+49 nodes
+ = 1556 word (0 null), init 1556, int 1815, fin 992, cf 0
+51 links = int 4363, ext 1382 (0 for null words)
+sil five nine six four four nine eight sil  ==  [330 frames] -59.0216 [Ac=-19477.1 LM=0.0] (Act=12.5)
+Aligning File: mfcc/train/MFL_86A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word six
+Building word sil
+16 nodes
+ = 1560 word (0 null), init 1560, int 1819, fin 994, cf 0
+15 links = int 4373, ext 1385 (0 for null words)
+sil eight six sil  ==  [144 frames] -59.2850 [Ac=-8537.0 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/MFL_Z699A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word zero
+Building word six
+Building word nine
+Building word nine
+Building word sil
+28 nodes
+ = 1566 word (0 null), init 1566, int 1829, fin 998, cf 0
+27 links = int 4393, ext 1390 (0 for null words)
+sil zero six nine nine sil  ==  [167 frames] -60.7090 [Ac=-10138.4 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MGG_36Z55A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word six
+Building word zero
+Building word five
+Building word five
+Building word sil
+33 nodes
+ = 1573 word (0 null), init 1573, int 1841, fin 1003, cf 0
+32 links = int 4417, ext 1396 (0 for null words)
+sil three six zero five five sil  ==  [277 frames] -62.5361 [Ac=-17322.5 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/MGG_645A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word six
+Building word four
+Building word five
+Building word sil
+26 nodes
+ = 1579 word (0 null), init 1579, int 1849, fin 1007, cf 0
+26 links = int 4435, ext 1402 (0 for null words)
+sil six four five sil  ==  [149 frames] -60.6879 [Ac=-9042.5 LM=0.0] (Act=9.4)
+Aligning File: mfcc/train/MGG_8O379A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word eight
+Building word oh
+Building word three
+Building word seven
+Building word nine
+Building word sil
+29 nodes
+ = 1586 word (0 null), init 1586, int 1857, fin 1012, cf 0
+28 links = int 4455, ext 1408 (0 for null words)
+sil eight oh three seven nine sil  ==  [217 frames] -62.7324 [Ac=-13612.9 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/MGG_ZA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 1589 word (0 null), init 1589, int 1860, fin 1013, cf 0
+11 links = int 4462, ext 1410 (0 for null words)
+sil zero sil  ==  [106 frames] -65.7793 [Ac=-6972.6 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/MGJ_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1592 word (0 null), init 1592, int 1862, fin 1014, cf 0
+10 links = int 4468, ext 1412 (0 for null words)
+sil three sil  ==  [93 frames] -56.6171 [Ac=-5265.4 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/MGJ_672A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word six
+Building word seven
+Building word two
+Building word sil
+22 nodes
+ = 1597 word (0 null), init 1597, int 1869, fin 1017, cf 0
+21 links = int 4483, ext 1416 (0 for null words)
+sil six seven two sil  ==  [143 frames] -58.7228 [Ac=-8397.4 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MGJ_95O1275A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word five
+Building word oh
+Building word one
+Building word two
+Building word seven
+Building word five
+Building word sil
+39 nodes
+ = 1606 word (0 null), init 1606, int 1881, fin 1024, cf 0
+38 links = int 4511, ext 1424 (0 for null words)
+sil nine five oh one two seven five sil  ==  [264 frames] -59.1460 [Ac=-15614.5 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MGR_14483A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word four
+Building word four
+Building word eight
+Building word three
+Building word sil
+38 nodes
+ = 1615 word (0 null), init 1615, int 1892, fin 1031, cf 0
+40 links = int 4538, ext 1435 (0 for null words)
+sil one four four eight three sil  ==  [208 frames] -60.4920 [Ac=-12582.3 LM=0.0] (Act=11.3)
+Aligning File: mfcc/train/MGR_41A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word one
+Building word sil
+20 nodes
+ = 1620 word (0 null), init 1620, int 1897, fin 1034, cf 0
+20 links = int 4551, ext 1440 (0 for null words)
+sil four one sil  ==  [117 frames] -56.6958 [Ac=-6633.4 LM=0.0] (Act=13.4)
+Aligning File: mfcc/train/MGR_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1623 word (0 null), init 1623, int 1900, fin 1035, cf 0
+11 links = int 4558, ext 1442 (0 for null words)
+sil six sil  ==  [117 frames] -57.4234 [Ac=-6718.5 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MGR_9Z2A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word nine
+Building word zero
+Building word two
+Building word sil
+21 nodes
+ = 1628 word (0 null), init 1628, int 1906, fin 1038, cf 0
+20 links = int 4572, ext 1446 (0 for null words)
+sil nine zero two sil  ==  [175 frames] -58.5685 [Ac=-10249.5 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MGT_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 1631 word (0 null), init 1631, int 1908, fin 1039, cf 0
+10 links = int 4578, ext 1448 (0 for null words)
+sil one sil  ==  [77 frames] -59.6069 [Ac=-4589.7 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/MGT_49A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word nine
+Building word sil
+20 nodes
+ = 1636 word (0 null), init 1636, int 1913, fin 1042, cf 0
+20 links = int 4591, ext 1453 (0 for null words)
+sil four nine sil  ==  [114 frames] -57.9226 [Ac=-6603.2 LM=0.0] (Act=9.2)
+Aligning File: mfcc/train/MGT_749A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word four
+Building word nine
+Building word sil
+26 nodes
+ = 1642 word (0 null), init 1642, int 1921, fin 1046, cf 0
+26 links = int 4609, ext 1459 (0 for null words)
+sil seven four nine sil  ==  [145 frames] -58.4913 [Ac=-8481.2 LM=0.0] (Act=9.6)
+Aligning File: mfcc/train/MGT_O4A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word oh
+Building word four
+Building word sil
+18 nodes
+ = 1647 word (0 null), init 1647, int 1924, fin 1049, cf 0
+18 links = int 4620, ext 1464 (0 for null words)
+sil oh four sil  ==  [111 frames] -57.0871 [Ac=-6336.7 LM=0.0] (Act=11.7)
+Aligning File: mfcc/train/MHA_21A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word two
+Building word one
+Building word sil
+15 nodes
+ = 1651 word (0 null), init 1651, int 1927, fin 1051, cf 0
+14 links = int 4629, ext 1467 (0 for null words)
+sil two one sil  ==  [86 frames] -60.0032 [Ac=-5160.3 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MHA_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1655 word (0 null), init 1655, int 1930, fin 1053, cf 0
+15 links = int 4638, ext 1471 (0 for null words)
+sil four sil  ==  [65 frames] -58.2473 [Ac=-3786.1 LM=0.0] (Act=9.6)
+Aligning File: mfcc/train/MHA_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1658 word (0 null), init 1658, int 1933, fin 1054, cf 0
+11 links = int 4645, ext 1473 (0 for null words)
+sil seven sil  ==  [76 frames] -58.2121 [Ac=-4424.1 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/MHA_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 1661 word (0 null), init 1661, int 1933, fin 1055, cf 0
+8 links = int 4649, ext 1475 (0 for null words)
+sil oh sil  ==  [63 frames] -57.2540 [Ac=-3607.0 LM=0.0] (Act=6.1)
+Aligning File: mfcc/train/MHH_2972A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word nine
+Building word seven
+Building word two
+Building word sil
+25 nodes
+ = 1667 word (0 null), init 1667, int 1940, fin 1059, cf 0
+24 links = int 4666, ext 1480 (0 for null words)
+sil two nine seven two sil  ==  [166 frames] -59.8837 [Ac=-9940.7 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/MHH_552Z49ZA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word five
+Building word five
+Building word two
+Building word zero
+Building word four
+Building word nine
+Building word zero
+Building word sil
+46 nodes
+ = 1677 word (0 null), init 1677, int 1956, fin 1067, cf 0
+46 links = int 4700, ext 1490 (0 for null words)
+sil five five two zero four nine zero sil  ==  [330 frames] -60.2195 [Ac=-19872.4 LM=0.0] (Act=11.0)
+Aligning File: mfcc/train/MHH_86A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word six
+Building word sil
+16 nodes
+ = 1681 word (0 null), init 1681, int 1960, fin 1069, cf 0
+15 links = int 4710, ext 1493 (0 for null words)
+sil eight six sil  ==  [112 frames] -56.9823 [Ac=-6382.0 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MHH_Z3A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word zero
+Building word three
+Building word sil
+17 nodes
+ = 1685 word (0 null), init 1685, int 1965, fin 1071, cf 0
+16 links = int 4721, ext 1496 (0 for null words)
+sil zero three sil  ==  [140 frames] -56.4394 [Ac=-7901.5 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MHL_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 1688 word (0 null), init 1688, int 1966, fin 1072, cf 0
+9 links = int 4726, ext 1498 (0 for null words)
+sil two sil  ==  [81 frames] -57.2789 [Ac=-4639.6 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/MHL_5A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 1691 word (0 null), init 1691, int 1968, fin 1073, cf 0
+10 links = int 4732, ext 1500 (0 for null words)
+sil five sil  ==  [90 frames] -53.2136 [Ac=-4789.2 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/MHL_8B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 1694 word (0 null), init 1694, int 1969, fin 1074, cf 0
+9 links = int 4737, ext 1502 (0 for null words)
+sil eight sil  ==  [81 frames] -58.1155 [Ac=-4707.4 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/MHL_Z7Z27A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word seven
+Building word zero
+Building word two
+Building word seven
+Building word sil
+34 nodes
+ = 1701 word (0 null), init 1701, int 1982, fin 1079, cf 0
+33 links = int 4762, ext 1508 (0 for null words)
+sil zero seven zero two seven sil  ==  [290 frames] -66.4386 [Ac=-19267.2 LM=0.0] (Act=8.4)
+Aligning File: mfcc/train/MHN_39O29A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word nine
+Building word oh
+Building word two
+Building word nine
+Building word sil
+28 nodes
+ = 1708 word (0 null), init 1708, int 1989, fin 1084, cf 0
+27 links = int 4781, ext 1514 (0 for null words)
+sil three nine oh two nine sil  ==  [195 frames] -60.3390 [Ac=-11766.1 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MHN_63696A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word six
+Building word three
+Building word six
+Building word nine
+Building word six
+Building word sil
+34 nodes
+ = 1715 word (0 null), init 1715, int 2002, fin 1089, cf 0
+33 links = int 4806, ext 1520 (0 for null words)
+sil six three six nine six sil  ==  [237 frames] -63.3099 [Ac=-15004.5 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/MHN_91O5777A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word one
+Building word oh
+Building word five
+Building word seven
+Building word seven
+Building word seven
+Building word sil
+42 nodes
+ = 1724 word (0 null), init 1724, int 2017, fin 1096, cf 0
+41 links = int 4837, ext 1528 (0 for null words)
+sil nine one oh five seven seven seven sil  ==  [305 frames] -61.0783 [Ac=-18628.9 LM=0.0] (Act=9.2)
+Aligning File: mfcc/train/MHN_ZZ1A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word zero
+Building word zero
+Building word one
+Building word sil
+23 nodes
+ = 1729 word (0 null), init 1729, int 2025, fin 1099, cf 0
+22 links = int 4853, ext 1532 (0 for null words)
+sil zero zero one sil  ==  [154 frames] -59.4361 [Ac=-9153.2 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/MHS_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1732 word (0 null), init 1732, int 2027, fin 1100, cf 0
+10 links = int 4859, ext 1534 (0 for null words)
+sil three sil  ==  [108 frames] -56.9644 [Ac=-6152.2 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MHS_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1735 word (0 null), init 1735, int 2030, fin 1101, cf 0
+11 links = int 4866, ext 1536 (0 for null words)
+sil six sil  ==  [108 frames] -57.3373 [Ac=-6192.4 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MHS_9961538A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word nine
+Building word six
+Building word one
+Building word five
+Building word three
+Building word eight
+Building word sil
+41 nodes
+ = 1744 word (0 null), init 1744, int 2044, fin 1108, cf 0
+40 links = int 4896, ext 1544 (0 for null words)
+sil nine nine six one five three eight sil  ==  [294 frames] -61.3703 [Ac=-18042.9 LM=0.0] (Act=8.3)
+Aligning File: mfcc/train/MIE_1656A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word one
+Building word six
+Building word five
+Building word six
+Building word sil
+28 nodes
+ = 1750 word (0 null), init 1750, int 2054, fin 1112, cf 0
+27 links = int 4916, ext 1549 (0 for null words)
+sil one six five six sil  ==  [232 frames] -57.8811 [Ac=-13428.4 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/MIE_4882414A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word four
+Building word eight
+Building word eight
+Building word two
+Building word four
+Building word one
+Building word four
+Building word sil
+50 nodes
+ = 1762 word (0 null), init 1762, int 2068, fin 1122, cf 0
+52 links = int 4952, ext 1563 (0 for null words)
+sil four eight eight two four one four sil  ==  [294 frames] -60.6777 [Ac=-17839.2 LM=0.0] (Act=13.6)
+Aligning File: mfcc/train/MIE_7231A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word seven
+Building word two
+Building word three
+Building word one
+Building word sil
+26 nodes
+ = 1768 word (0 null), init 1768, int 2076, fin 1126, cf 0
+25 links = int 4970, ext 1568 (0 for null words)
+sil seven two three one sil  ==  [194 frames] -60.8447 [Ac=-11803.9 LM=0.0] (Act=9.1)
+Aligning File: mfcc/train/MIE_9B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 1771 word (0 null), init 1771, int 2078, fin 1127, cf 0
+10 links = int 4976, ext 1570 (0 for null words)
+sil nine sil  ==  [109 frames] -57.6207 [Ac=-6280.7 LM=0.0] (Act=7.1)
+Aligning File: mfcc/train/MIF_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 1774 word (0 null), init 1774, int 2080, fin 1128, cf 0
+10 links = int 4982, ext 1572 (0 for null words)
+sil one sil  ==  [108 frames] -55.7202 [Ac=-6017.8 LM=0.0] (Act=7.0)
+Aligning File: mfcc/train/MIF_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1778 word (0 null), init 1778, int 2083, fin 1130, cf 0
+15 links = int 4991, ext 1576 (0 for null words)
+sil four sil  ==  [99 frames] -55.0681 [Ac=-5451.7 LM=0.0] (Act=10.9)
+Aligning File: mfcc/train/MIF_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1781 word (0 null), init 1781, int 2086, fin 1131, cf 0
+11 links = int 4998, ext 1578 (0 for null words)
+sil seven sil  ==  [106 frames] -56.2824 [Ac=-5965.9 LM=0.0] (Act=7.9)
+Aligning File: mfcc/train/MIF_O797335A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word seven
+Building word nine
+Building word seven
+Building word three
+Building word three
+Building word five
+Building word sil
+41 nodes
+ = 1790 word (0 null), init 1790, int 2100, fin 1138, cf 0
+40 links = int 5028, ext 1586 (0 for null words)
+sil oh seven nine seven three three five sil  ==  [280 frames] -58.4573 [Ac=-16368.0 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MIN_26ZZA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word two
+Building word six
+Building word zero
+Building word zero
+Building word sil
+28 nodes
+ = 1796 word (0 null), init 1796, int 2110, fin 1142, cf 0
+27 links = int 5048, ext 1591 (0 for null words)
+sil two six zero zero sil  ==  [191 frames] -57.9144 [Ac=-11061.7 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MIN_541ZA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word four
+Building word one
+Building word zero
+Building word sil
+31 nodes
+ = 1803 word (0 null), init 1803, int 2120, fin 1147, cf 0
+31 links = int 5070, ext 1598 (0 for null words)
+sil five four one zero sil  ==  [189 frames] -56.7045 [Ac=-10717.1 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/MIN_7O6A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word oh
+Building word six
+Building word sil
+21 nodes
+ = 1808 word (0 null), init 1808, int 2126, fin 1150, cf 0
+20 links = int 5084, ext 1602 (0 for null words)
+sil seven oh six sil  ==  [164 frames] -58.0658 [Ac=-9522.8 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MIN_OB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 1811 word (0 null), init 1811, int 2126, fin 1151, cf 0
+8 links = int 5088, ext 1604 (0 for null words)
+sil oh sil  ==  [74 frames] -53.6460 [Ac=-3969.8 LM=0.0] (Act=6.1)
+Aligning File: mfcc/train/MIT_2A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 1814 word (0 null), init 1814, int 2127, fin 1152, cf 0
+9 links = int 5093, ext 1606 (0 for null words)
+sil two sil  ==  [65 frames] -61.1093 [Ac=-3972.1 LM=0.0] (Act=6.1)
+Aligning File: mfcc/train/MIT_5745A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word seven
+Building word four
+Building word five
+Building word sil
+31 nodes
+ = 1821 word (0 null), init 1821, int 2137, fin 1157, cf 0
+31 links = int 5115, ext 1613 (0 for null words)
+sil five seven four five sil  ==  [159 frames] -60.2135 [Ac=-9574.0 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/MIT_8996864A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word eight
+Building word nine
+Building word nine
+Building word six
+Building word eight
+Building word six
+Building word four
+Building word sil
+45 nodes
+ = 1831 word (0 null), init 1831, int 2152, fin 1165, cf 0
+45 links = int 5148, ext 1623 (0 for null words)
+sil eight nine nine six eight six four sil  ==  [242 frames] -64.2286 [Ac=-15543.3 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/MIT_Z2465A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word two
+Building word four
+Building word six
+Building word five
+Building word sil
+36 nodes
+ = 1839 word (0 null), init 1839, int 2164, fin 1171, cf 0
+36 links = int 5174, ext 1631 (0 for null words)
+sil zero two four six five sil  ==  [167 frames] -65.6174 [Ac=-10958.1 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MJR_323A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word two
+Building word three
+Building word sil
+20 nodes
+ = 1844 word (0 null), init 1844, int 2169, fin 1174, cf 0
+19 links = int 5187, ext 1635 (0 for null words)
+sil three two three sil  ==  [127 frames] -69.9979 [Ac=-8889.7 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MJR_5Z31A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word zero
+Building word three
+Building word one
+Building word sil
+27 nodes
+ = 1850 word (0 null), init 1850, int 2178, fin 1178, cf 0
+26 links = int 5206, ext 1640 (0 for null words)
+sil five zero three one sil  ==  [190 frames] -63.4937 [Ac=-12063.8 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MJR_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 1853 word (0 null), init 1853, int 2179, fin 1179, cf 0
+9 links = int 5211, ext 1642 (0 for null words)
+sil eight sil  ==  [100 frames] -59.5795 [Ac=-5957.9 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MJR_ZB.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 1856 word (0 null), init 1856, int 2182, fin 1180, cf 0
+11 links = int 5218, ext 1644 (0 for null words)
+sil zero sil  ==  [103 frames] -58.2396 [Ac=-5998.7 LM=0.0] (Act=5.8)
+Aligning File: mfcc/train/MJT_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 1859 word (0 null), init 1859, int 2184, fin 1181, cf 0
+10 links = int 5224, ext 1646 (0 for null words)
+sil three sil  ==  [81 frames] -59.8282 [Ac=-4846.1 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/MJT_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1862 word (0 null), init 1862, int 2187, fin 1182, cf 0
+11 links = int 5231, ext 1648 (0 for null words)
+sil six sil  ==  [129 frames] -57.0504 [Ac=-7359.5 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/MJT_9565942A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word five
+Building word six
+Building word five
+Building word nine
+Building word four
+Building word two
+Building word sil
+45 nodes
+ = 1872 word (0 null), init 1872, int 2202, fin 1190, cf 0
+45 links = int 5264, ext 1658 (0 for null words)
+sil nine five six five nine four two sil  ==  [283 frames] -62.8345 [Ac=-17782.2 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MKD_124A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word one
+Building word two
+Building word four
+Building word sil
+24 nodes
+ = 1878 word (0 null), init 1878, int 2208, fin 1194, cf 0
+24 links = int 5280, ext 1664 (0 for null words)
+sil one two four sil  ==  [134 frames] -62.5966 [Ac=-8387.9 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/MKD_3ZA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word three
+Building word zero
+Building word sil
+17 nodes
+ = 1882 word (0 null), init 1882, int 2213, fin 1196, cf 0
+16 links = int 5291, ext 1667 (0 for null words)
+sil three zero sil  ==  [136 frames] -60.9805 [Ac=-8293.4 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MKD_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 1885 word (0 null), init 1885, int 2216, fin 1197, cf 0
+11 links = int 5298, ext 1669 (0 for null words)
+sil six sil  ==  [100 frames] -56.3683 [Ac=-5636.8 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MKD_9B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 1888 word (0 null), init 1888, int 2218, fin 1198, cf 0
+10 links = int 5304, ext 1671 (0 for null words)
+sil nine sil  ==  [93 frames] -54.1624 [Ac=-5037.1 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MKP_1A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 1891 word (0 null), init 1891, int 2220, fin 1199, cf 0
+10 links = int 5310, ext 1673 (0 for null words)
+sil one sil  ==  [94 frames] -56.6083 [Ac=-5321.2 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MKP_4724ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word seven
+Building word two
+Building word four
+Building word zero
+Building word sil
+40 nodes
+ = 1900 word (0 null), init 1900, int 2233, fin 1206, cf 0
+41 links = int 5339, ext 1683 (0 for null words)
+sil four seven two four zero sil  ==  [262 frames] -64.4120 [Ac=-16876.0 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/MKP_769A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word six
+Building word nine
+Building word sil
+23 nodes
+ = 1905 word (0 null), init 1905, int 2241, fin 1209, cf 0
+22 links = int 5355, ext 1687 (0 for null words)
+sil seven six nine sil  ==  [178 frames] -64.4241 [Ac=-11467.5 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MKP_O1O1892A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word one
+Building word oh
+Building word one
+Building word eight
+Building word nine
+Building word two
+Building word sil
+35 nodes
+ = 1914 word (0 null), init 1914, int 2249, fin 1216, cf 0
+34 links = int 5379, ext 1695 (0 for null words)
+sil oh one oh one eight nine two sil  ==  [355 frames] -57.9748 [Ac=-20581.0 LM=0.0] (Act=11.7)
+Aligning File: mfcc/train/MKR_1OOA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word one
+Building word oh
+Building word oh
+Building word sil
+17 nodes
+ = 1919 word (0 null), init 1919, int 2251, fin 1219, cf 0
+16 links = int 5389, ext 1699 (0 for null words)
+sil one oh oh sil  ==  [138 frames] -59.2832 [Ac=-8181.1 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MKR_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 1923 word (0 null), init 1923, int 2254, fin 1221, cf 0
+15 links = int 5398, ext 1703 (0 for null words)
+sil four sil  ==  [93 frames] -57.1965 [Ac=-5319.3 LM=0.0] (Act=10.4)
+Aligning File: mfcc/train/MKR_7A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 1926 word (0 null), init 1926, int 2257, fin 1222, cf 0
+11 links = int 5405, ext 1705 (0 for null words)
+sil seven sil  ==  [103 frames] -61.5143 [Ac=-6336.0 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MKR_O8A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word oh
+Building word eight
+Building word sil
+13 nodes
+ = 1930 word (0 null), init 1930, int 2258, fin 1224, cf 0
+12 links = int 5412, ext 1708 (0 for null words)
+sil oh eight sil  ==  [122 frames] -61.2881 [Ac=-7477.2 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MLH_26A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word two
+Building word six
+Building word sil
+16 nodes
+ = 1934 word (0 null), init 1934, int 2262, fin 1226, cf 0
+15 links = int 5422, ext 1711 (0 for null words)
+sil two six sil  ==  [112 frames] -59.9739 [Ac=-6717.1 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MLH_524A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word five
+Building word two
+Building word four
+Building word sil
+24 nodes
+ = 1940 word (0 null), init 1940, int 2268, fin 1230, cf 0
+24 links = int 5438, ext 1717 (0 for null words)
+sil five two four sil  ==  [140 frames] -58.2156 [Ac=-8150.2 LM=0.0] (Act=10.4)
+Aligning File: mfcc/train/MLH_84A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word four
+Building word sil
+19 nodes
+ = 1945 word (0 null), init 1945, int 2272, fin 1233, cf 0
+19 links = int 5450, ext 1722 (0 for null words)
+sil eight four sil  ==  [98 frames] -57.8634 [Ac=-5670.6 LM=0.0] (Act=9.8)
+Aligning File: mfcc/train/MLH_OO1O714A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word oh
+Building word one
+Building word oh
+Building word seven
+Building word one
+Building word four
+Building word sil
+40 nodes
+ = 1955 word (0 null), init 1955, int 2282, fin 1241, cf 0
+40 links = int 5478, ext 1732 (0 for null words)
+sil oh oh one oh seven one four sil  ==  [310 frames] -59.4865 [Ac=-18440.8 LM=0.0] (Act=12.2)
+Aligning File: mfcc/train/MLT_2A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 1958 word (0 null), init 1958, int 2283, fin 1242, cf 0
+9 links = int 5483, ext 1734 (0 for null words)
+sil two sil  ==  [80 frames] -58.7979 [Ac=-4703.8 LM=0.0] (Act=6.4)
+Aligning File: mfcc/train/MLT_5A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 1961 word (0 null), init 1961, int 2285, fin 1243, cf 0
+10 links = int 5489, ext 1736 (0 for null words)
+sil five sil  ==  [82 frames] -53.7189 [Ac=-4404.9 LM=0.0] (Act=6.5)
+Aligning File: mfcc/train/MLT_88OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word eight
+Building word eight
+Building word oh
+Building word sil
+17 nodes
+ = 1966 word (0 null), init 1966, int 2287, fin 1246, cf 0
+16 links = int 5499, ext 1740 (0 for null words)
+sil eight eight oh sil  ==  [114 frames] -60.3821 [Ac=-6883.6 LM=0.0] (Act=9.8)
+Aligning File: mfcc/train/MLT_Z9ZA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word zero
+Building word nine
+Building word zero
+Building word sil
+23 nodes
+ = 1971 word (0 null), init 1971, int 2295, fin 1249, cf 0
+22 links = int 5515, ext 1744 (0 for null words)
+sil zero nine zero sil  ==  [152 frames] -58.1015 [Ac=-8831.4 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MMB_35OA.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word three
+Building word five
+Building word oh
+Building word sil
+19 nodes
+ = 1976 word (0 null), init 1976, int 2299, fin 1252, cf 0
+18 links = int 5527, ext 1748 (0 for null words)
+sil three five oh sil  ==  [166 frames] -59.1424 [Ac=-9817.6 LM=0.0] (Act=7.3)
+Aligning File: mfcc/train/MMB_6178A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word six
+Building word one
+Building word seven
+Building word eight
+Building word sil
+27 nodes
+ = 1982 word (0 null), init 1982, int 2308, fin 1256, cf 0
+26 links = int 5546, ext 1753 (0 for null words)
+sil six one seven eight sil  ==  [198 frames] -59.6130 [Ac=-11803.4 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MMB_8Z93ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word eight
+Building word zero
+Building word nine
+Building word three
+Building word zero
+Building word sil
+32 nodes
+ = 1989 word (0 null), init 1989, int 2319, fin 1261, cf 0
+31 links = int 5569, ext 1759 (0 for null words)
+sil eight zero nine three zero sil  ==  [274 frames] -58.5973 [Ac=-16055.7 LM=0.0] (Act=8.6)
+Aligning File: mfcc/train/MMB_ZZ339A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word zero
+Building word three
+Building word three
+Building word nine
+Building word sil
+33 nodes
+ = 1996 word (0 null), init 1996, int 2331, fin 1266, cf 0
+32 links = int 5593, ext 1765 (0 for null words)
+sil zero zero three three nine sil  ==  [254 frames] -59.0950 [Ac=-15010.1 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MMH_374OA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word seven
+Building word four
+Building word oh
+Building word sil
+29 nodes
+ = 2003 word (0 null), init 2003, int 2339, fin 1271, cf 0
+29 links = int 5613, ext 1772 (0 for null words)
+sil three seven four oh sil  ==  [207 frames] -59.4375 [Ac=-12303.6 LM=0.0] (Act=9.8)
+Aligning File: mfcc/train/MMH_6763OO3A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word six
+Building word seven
+Building word six
+Building word three
+Building word oh
+Building word oh
+Building word three
+Building word sil
+40 nodes
+ = 2012 word (0 null), init 2012, int 2352, fin 1278, cf 0
+39 links = int 5642, ext 1780 (0 for null words)
+sil six seven six three oh oh three sil  ==  [363 frames] -60.7115 [Ac=-22038.3 LM=0.0] (Act=10.1)
+Aligning File: mfcc/train/MMH_9433487A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word nine
+Building word four
+Building word three
+Building word three
+Building word four
+Building word eight
+Building word seven
+Building word sil
+49 nodes
+ = 2023 word (0 null), init 2023, int 2368, fin 1287, cf 0
+50 links = int 5678, ext 1792 (0 for null words)
+sil nine four three three four eight seven sil  ==  [337 frames] -61.7903 [Ac=-20823.3 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/MMP_18O49A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word one
+Building word eight
+Building word oh
+Building word four
+Building word nine
+Building word sil
+32 nodes
+ = 2031 word (0 null), init 2031, int 2376, fin 1293, cf 0
+32 links = int 5700, ext 1800 (0 for null words)
+sil one eight oh four nine sil  ==  [235 frames] -60.7772 [Ac=-14282.6 LM=0.0] (Act=10.7)
+Aligning File: mfcc/train/MMP_435OA.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word four
+Building word three
+Building word five
+Building word oh
+Building word sil
+28 nodes
+ = 2038 word (0 null), init 2038, int 2383, fin 1298, cf 0
+28 links = int 5719, ext 1807 (0 for null words)
+sil four three five oh sil  ==  [204 frames] -59.6827 [Ac=-12175.3 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MMP_6Z45A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word six
+Building word zero
+Building word four
+Building word five
+Building word sil
+32 nodes
+ = 2045 word (0 null), init 2045, int 2394, fin 1303, cf 0
+32 links = int 5742, ext 1814 (0 for null words)
+sil six zero four five sil  ==  [240 frames] -58.3830 [Ac=-14011.9 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MMP_9OA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word oh
+Building word sil
+14 nodes
+ = 2049 word (0 null), init 2049, int 2396, fin 1305, cf 0
+13 links = int 5750, ext 1817 (0 for null words)
+sil nine oh sil  ==  [146 frames] -57.2021 [Ac=-8351.5 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MMR_1893945A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word eight
+Building word nine
+Building word three
+Building word nine
+Building word four
+Building word five
+Building word sil
+44 nodes
+ = 2059 word (0 null), init 2059, int 2410, fin 1313, cf 0
+44 links = int 5782, ext 1827 (0 for null words)
+sil one eight nine three nine four five sil  ==  [281 frames] -59.3156 [Ac=-16667.7 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/MMR_4A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 2063 word (0 null), init 2063, int 2413, fin 1315, cf 0
+15 links = int 5791, ext 1831 (0 for null words)
+sil four sil  ==  [89 frames] -56.6546 [Ac=-5042.3 LM=0.0] (Act=10.6)
+Aligning File: mfcc/train/MMR_764A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word seven
+Building word six
+Building word four
+Building word sil
+27 nodes
+ = 2069 word (0 null), init 2069, int 2422, fin 1319, cf 0
+27 links = int 5810, ext 1837 (0 for null words)
+sil seven six four sil  ==  [159 frames] -59.9574 [Ac=-9533.2 LM=0.0] (Act=9.4)
+Aligning File: mfcc/train/MMR_O3O5351A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word oh
+Building word three
+Building word oh
+Building word five
+Building word three
+Building word five
+Building word one
+Building word sil
+37 nodes
+ = 2078 word (0 null), init 2078, int 2432, fin 1326, cf 0
+36 links = int 5836, ext 1845 (0 for null words)
+sil oh three oh five three five one sil  ==  [289 frames] -60.0102 [Ac=-17342.9 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/MNE_22O9O87A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word two
+Building word two
+Building word oh
+Building word nine
+Building word oh
+Building word eight
+Building word seven
+Building word sil
+35 nodes
+ = 2087 word (0 null), init 2087, int 2440, fin 1333, cf 0
+34 links = int 5860, ext 1853 (0 for null words)
+sil two two oh nine oh eight seven sil  ==  [254 frames] -60.7497 [Ac=-15430.4 LM=0.0] (Act=11.0)
+Aligning File: mfcc/train/MNE_4Z125A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word four
+Building word zero
+Building word one
+Building word two
+Building word five
+Building word sil
+35 nodes
+ = 2095 word (0 null), init 2095, int 2451, fin 1339, cf 0
+35 links = int 5885, ext 1861 (0 for null words)
+sil four zero one two five sil  ==  [186 frames] -60.6092 [Ac=-11273.3 LM=0.0] (Act=8.8)
+Aligning File: mfcc/train/MNE_7O78523A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word seven
+Building word oh
+Building word seven
+Building word eight
+Building word five
+Building word two
+Building word three
+Building word sil
+39 nodes
+ = 2104 word (0 null), init 2104, int 2463, fin 1346, cf 0
+38 links = int 5913, ext 1869 (0 for null words)
+sil seven oh seven eight five two three sil  ==  [290 frames] -62.0324 [Ac=-17989.4 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/MNE_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 2107 word (0 null), init 2107, int 2463, fin 1347, cf 0
+8 links = int 5917, ext 1871 (0 for null words)
+sil oh sil  ==  [97 frames] -57.1072 [Ac=-5539.4 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/MNF_2A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 2110 word (0 null), init 2110, int 2464, fin 1348, cf 0
+9 links = int 5922, ext 1873 (0 for null words)
+sil two sil  ==  [107 frames] -58.7639 [Ac=-6287.7 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MNF_56Z71A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word five
+Building word six
+Building word zero
+Building word seven
+Building word one
+Building word sil
+34 nodes
+ = 2117 word (0 null), init 2117, int 2477, fin 1353, cf 0
+33 links = int 5947, ext 1879 (0 for null words)
+sil five six zero seven one sil  ==  [219 frames] -61.7024 [Ac=-13512.8 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MNF_8694ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word eight
+Building word six
+Building word nine
+Building word four
+Building word zero
+Building word sil
+36 nodes
+ = 2125 word (0 null), init 2125, int 2489, fin 1359, cf 0
+36 links = int 5973, ext 1887 (0 for null words)
+sil eight six nine four zero sil  ==  [209 frames] -65.4410 [Ac=-13677.2 LM=0.0] (Act=9.7)
+Aligning File: mfcc/train/MNF_Z472ZA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word zero
+Building word four
+Building word seven
+Building word two
+Building word zero
+Building word sil
+37 nodes
+ = 2133 word (0 null), init 2133, int 2502, fin 1365, cf 0
+37 links = int 6000, ext 1895 (0 for null words)
+sil zero four seven two zero sil  ==  [259 frames] -61.7699 [Ac=-15998.4 LM=0.0] (Act=9.9)
+Aligning File: mfcc/train/MNI_2B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word two
+Building word sil
+10 nodes
+ = 2136 word (0 null), init 2136, int 2503, fin 1366, cf 0
+9 links = int 6005, ext 1897 (0 for null words)
+sil two sil  ==  [94 frames] -56.3296 [Ac=-5295.0 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/MNI_5A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 2139 word (0 null), init 2139, int 2505, fin 1367, cf 0
+10 links = int 6011, ext 1899 (0 for null words)
+sil five sil  ==  [95 frames] -54.8300 [Ac=-5208.9 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/MNI_8A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word eight
+Building word sil
+10 nodes
+ = 2142 word (0 null), init 2142, int 2506, fin 1368, cf 0
+9 links = int 6016, ext 1901 (0 for null words)
+sil eight sil  ==  [80 frames] -56.3016 [Ac=-4504.1 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/MNI_Z718A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word zero
+Building word seven
+Building word one
+Building word eight
+Building word sil
+27 nodes
+ = 2148 word (0 null), init 2148, int 2515, fin 1372, cf 0
+26 links = int 6035, ext 1906 (0 for null words)
+sil zero seven one eight sil  ==  [204 frames] -63.6555 [Ac=-12985.7 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MNR_3676A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word six
+Building word seven
+Building word six
+Building word sil
+29 nodes
+ = 2154 word (0 null), init 2154, int 2526, fin 1376, cf 0
+28 links = int 6056, ext 1911 (0 for null words)
+sil three six seven six sil  ==  [204 frames] -62.6560 [Ac=-12781.8 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MNR_66Z23A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word six
+Building word six
+Building word zero
+Building word two
+Building word three
+Building word sil
+33 nodes
+ = 2161 word (0 null), init 2161, int 2538, fin 1381, cf 0
+32 links = int 6080, ext 1917 (0 for null words)
+sil six six zero two three sil  ==  [208 frames] -65.2499 [Ac=-13572.0 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MNR_92566A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word nine
+Building word two
+Building word five
+Building word six
+Building word six
+Building word sil
+32 nodes
+ = 2168 word (0 null), init 2168, int 2549, fin 1386, cf 0
+31 links = int 6103, ext 1923 (0 for null words)
+sil nine two five six six sil  ==  [228 frames] -61.3758 [Ac=-13993.7 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/MNR_ZZ8378ZA.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word zero
+Building word zero
+Building word eight
+Building word three
+Building word seven
+Building word eight
+Building word zero
+Building word sil
+43 nodes
+ = 2177 word (0 null), init 2177, int 2565, fin 1393, cf 0
+42 links = int 6135, ext 1931 (0 for null words)
+sil zero zero eight three seven eight zero sil  ==  [264 frames] -64.7186 [Ac=-17085.7 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/MNW_3A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 2180 word (0 null), init 2180, int 2567, fin 1394, cf 0
+10 links = int 6141, ext 1933 (0 for null words)
+sil three sil  ==  [88 frames] -57.1820 [Ac=-5032.0 LM=0.0] (Act=6.6)
+Aligning File: mfcc/train/MNW_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 2183 word (0 null), init 2183, int 2570, fin 1395, cf 0
+11 links = int 6148, ext 1935 (0 for null words)
+sil six sil  ==  [106 frames] -60.3910 [Ac=-6401.4 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MNW_98Z1A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word nine
+Building word eight
+Building word zero
+Building word one
+Building word sil
+26 nodes
+ = 2189 word (0 null), init 2189, int 2578, fin 1399, cf 0
+25 links = int 6166, ext 1940 (0 for null words)
+sil nine eight zero one sil  ==  [191 frames] -60.4209 [Ac=-11540.4 LM=0.0] (Act=10.0)
+Aligning File: mfcc/train/MPB_19Z3735A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word one
+Building word nine
+Building word zero
+Building word three
+Building word seven
+Building word three
+Building word five
+Building word sil
+43 nodes
+ = 2198 word (0 null), init 2198, int 2594, fin 1406, cf 0
+42 links = int 6198, ext 1948 (0 for null words)
+sil one nine zero three seven three five sil  ==  [312 frames] -63.1348 [Ac=-19698.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MPB_46A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word four
+Building word six
+Building word sil
+21 nodes
+ = 2203 word (0 null), init 2203, int 2600, fin 1409, cf 0
+21 links = int 6212, ext 1953 (0 for null words)
+sil four six sil  ==  [146 frames] -58.4378 [Ac=-8531.9 LM=0.0] (Act=9.0)
+Aligning File: mfcc/train/MPB_72A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word seven
+Building word two
+Building word sil
+16 nodes
+ = 2207 word (0 null), init 2207, int 2604, fin 1411, cf 0
+15 links = int 6222, ext 1956 (0 for null words)
+sil seven two sil  ==  [143 frames] -60.1234 [Ac=-8597.6 LM=0.0] (Act=8.5)
+Aligning File: mfcc/train/MPB_9Z567A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word nine
+Building word zero
+Building word five
+Building word six
+Building word seven
+Building word sil
+34 nodes
+ = 2214 word (0 null), init 2214, int 2617, fin 1416, cf 0
+33 links = int 6247, ext 1962 (0 for null words)
+sil nine zero five six seven sil  ==  [234 frames] -60.1054 [Ac=-14064.7 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MPD_1B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word one
+Building word sil
+11 nodes
+ = 2217 word (0 null), init 2217, int 2619, fin 1417, cf 0
+10 links = int 6253, ext 1964 (0 for null words)
+sil one sil  ==  [82 frames] -56.7026 [Ac=-4649.6 LM=0.0] (Act=6.8)
+Aligning File: mfcc/train/MPD_4B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word four
+Building word sil
+15 nodes
+ = 2221 word (0 null), init 2221, int 2622, fin 1419, cf 0
+15 links = int 6262, ext 1968 (0 for null words)
+sil four sil  ==  [85 frames] -62.6968 [Ac=-5329.2 LM=0.0] (Act=10.3)
+Aligning File: mfcc/train/MPD_7996OA.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word seven
+Building word nine
+Building word nine
+Building word six
+Building word oh
+Building word sil
+31 nodes
+ = 2228 word (0 null), init 2228, int 2632, fin 1424, cf 0
+30 links = int 6284, ext 1974 (0 for null words)
+sil seven nine nine six oh sil  ==  [244 frames] -56.2660 [Ac=-13728.9 LM=0.0] (Act=8.7)
+Aligning File: mfcc/train/MPD_O35A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word oh
+Building word three
+Building word five
+Building word sil
+19 nodes
+ = 2233 word (0 null), init 2233, int 2636, fin 1427, cf 0
+18 links = int 6296, ext 1978 (0 for null words)
+sil oh three five sil  ==  [141 frames] -58.8179 [Ac=-8293.3 LM=0.0] (Act=7.6)
+Aligning File: mfcc/train/MPI_251Z4A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word two
+Building word five
+Building word one
+Building word zero
+Building word four
+Building word sil
+35 nodes
+ = 2241 word (0 null), init 2241, int 2647, fin 1433, cf 0
+35 links = int 6321, ext 1986 (0 for null words)
+sil two five one zero four sil  ==  [291 frames] -61.6245 [Ac=-17932.7 LM=0.0] (Act=9.3)
+Aligning File: mfcc/train/MPI_5198A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word one
+Building word nine
+Building word eight
+Building word sil
+25 nodes
+ = 2247 word (0 null), init 2247, int 2654, fin 1437, cf 0
+24 links = int 6338, ext 1991 (0 for null words)
+sil five one nine eight sil  ==  [161 frames] -60.5297 [Ac=-9745.3 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MPI_7B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word seven
+Building word sil
+12 nodes
+ = 2250 word (0 null), init 2250, int 2657, fin 1438, cf 0
+11 links = int 6345, ext 1993 (0 for null words)
+sil seven sil  ==  [88 frames] -60.0124 [Ac=-5281.1 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MPI_OA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word oh
+Building word sil
+9 nodes
+ = 2253 word (0 null), init 2253, int 2657, fin 1439, cf 0
+8 links = int 6349, ext 1995 (0 for null words)
+sil oh sil  ==  [75 frames] -56.6695 [Ac=-4250.2 LM=0.0] (Act=6.2)
+Aligning File: mfcc/train/MRD_28A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word two
+Building word eight
+Building word sil
+14 nodes
+ = 2257 word (0 null), init 2257, int 2659, fin 1441, cf 0
+13 links = int 6357, ext 1998 (0 for null words)
+sil two eight sil  ==  [118 frames] -58.6400 [Ac=-6919.5 LM=0.0] (Act=8.5)
+Aligning File: mfcc/train/MRD_5932A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word five
+Building word nine
+Building word three
+Building word two
+Building word sil
+25 nodes
+ = 2263 word (0 null), init 2263, int 2666, fin 1445, cf 0
+24 links = int 6374, ext 2003 (0 for null words)
+sil five nine three two sil  ==  [171 frames] -59.5040 [Ac=-10175.2 LM=0.0] (Act=8.0)
+Aligning File: mfcc/train/MRD_84Z17Z8A.08.mfcc
+Created lattice with 9 nodes / 8 arcs from label file
+Building word sil
+Building word eight
+Building word four
+Building word zero
+Building word one
+Building word seven
+Building word zero
+Building word eight
+Building word sil
+46 nodes
+ = 2273 word (0 null), init 2273, int 2682, fin 1453, cf 0
+46 links = int 6408, ext 2013 (0 for null words)
+sil eight four zero one seven zero eight sil  ==  [298 frames] -60.9932 [Ac=-18176.0 LM=0.0] (Act=9.4)
+Aligning File: mfcc/train/MRD_Z394A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word zero
+Building word three
+Building word nine
+Building word four
+Building word sil
+31 nodes
+ = 2280 word (0 null), init 2280, int 2692, fin 1458, cf 0
+31 links = int 6430, ext 2020 (0 for null words)
+sil zero three nine four sil  ==  [172 frames] -61.2299 [Ac=-10531.5 LM=0.0] (Act=10.3)
+Aligning File: mfcc/train/MRF_3234A.08.mfcc
+Created lattice with 6 nodes / 5 arcs from label file
+Building word sil
+Building word three
+Building word two
+Building word three
+Building word four
+Building word sil
+29 nodes
+ = 2287 word (0 null), init 2287, int 2700, fin 1463, cf 0
+29 links = int 6450, ext 2027 (0 for null words)
+sil three two three four sil  ==  [185 frames] -60.2143 [Ac=-11139.6 LM=0.0] (Act=8.9)
+Aligning File: mfcc/train/MRF_5B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word five
+Building word sil
+11 nodes
+ = 2290 word (0 null), init 2290, int 2702, fin 1464, cf 0
+10 links = int 6456, ext 2029 (0 for null words)
+sil five sil  ==  [120 frames] -54.8106 [Ac=-6577.3 LM=0.0] (Act=7.2)
+Aligning File: mfcc/train/MRF_8OA.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word eight
+Building word oh
+Building word sil
+13 nodes
+ = 2294 word (0 null), init 2294, int 2703, fin 1466, cf 0
+12 links = int 6463, ext 2032 (0 for null words)
+sil eight oh sil  ==  [122 frames] -56.1095 [Ac=-6845.4 LM=0.0] (Act=7.4)
+Aligning File: mfcc/train/MRF_ZA.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word zero
+Building word sil
+12 nodes
+ = 2297 word (0 null), init 2297, int 2706, fin 1467, cf 0
+11 links = int 6470, ext 2034 (0 for null words)
+sil zero sil  ==  [121 frames] -55.7076 [Ac=-6740.6 LM=0.0] (Act=7.7)
+Aligning File: mfcc/train/MSJ_38116A.08.mfcc
+Created lattice with 7 nodes / 6 arcs from label file
+Building word sil
+Building word three
+Building word eight
+Building word one
+Building word one
+Building word six
+Building word sil
+31 nodes
+ = 2304 word (0 null), init 2304, int 2716, fin 1472, cf 0
+30 links = int 6492, ext 2040 (0 for null words)
+sil three eight one one six sil  ==  [234 frames] -63.2458 [Ac=-14799.5 LM=0.0] (Act=8.1)
+Aligning File: mfcc/train/MSJ_6A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 2307 word (0 null), init 2307, int 2719, fin 1473, cf 0
+11 links = int 6499, ext 2042 (0 for null words)
+sil six sil  ==  [98 frames] -58.3343 [Ac=-5716.8 LM=0.0] (Act=6.9)
+Aligning File: mfcc/train/MSJ_93A.08.mfcc
+Created lattice with 4 nodes / 3 arcs from label file
+Building word sil
+Building word nine
+Building word three
+Building word sil
+16 nodes
+ = 2311 word (0 null), init 2311, int 2723, fin 1475, cf 0
+15 links = int 6509, ext 2045 (0 for null words)
+sil nine three sil  ==  [113 frames] -62.3723 [Ac=-7048.1 LM=0.0] (Act=7.8)
+Aligning File: mfcc/train/MST_129A.08.mfcc
+Created lattice with 5 nodes / 4 arcs from label file
+Building word sil
+Building word one
+Building word two
+Building word nine
+Building word sil
+20 nodes
+ = 2316 word (0 null), init 2316, int 2728, fin 1478, cf 0
+19 links = int 6522, ext 2049 (0 for null words)
+sil one two nine sil  ==  [131 frames] -61.8844 [Ac=-8106.9 LM=0.0] (Act=8.2)
+Aligning File: mfcc/train/MST_3B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word three
+Building word sil
+11 nodes
+ = 2319 word (0 null), init 2319, int 2730, fin 1479, cf 0
+10 links = int 6528, ext 2051 (0 for null words)
+sil three sil  ==  [81 frames] -56.3067 [Ac=-4560.8 LM=0.0] (Act=6.7)
+Aligning File: mfcc/train/MST_6B.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word six
+Building word sil
+12 nodes
+ = 2322 word (0 null), init 2322, int 2733, fin 1480, cf 0
+11 links = int 6535, ext 2053 (0 for null words)
+sil six sil  ==  [109 frames] -56.5623 [Ac=-6165.3 LM=0.0] (Act=7.5)
+Aligning File: mfcc/train/MST_9A.08.mfcc
+Created lattice with 3 nodes / 2 arcs from label file
+Building word sil
+Building word nine
+Building word sil
+11 nodes
+ = 2325 word (0 null), init 2325, int 2735, fin 1481, cf 0
+10 links = int 6541, ext 2055 (0 for null words)
+sil nine sil  ==  [91 frames] -58.2463 [Ac=-5300.4 LM=0.0] (Act=7.3)
+
+HTK Configuration Parameters[5]
+  Module/Tool     Parameter                  Value
+                  NATURALREADORDER             FALSE
+  HNET            TRACE                          2
+                  ACCWINDOW                      2
+                  DELTAWINDOW                    3
+                  TARGETKIND            MFCC_E_D_A
+
